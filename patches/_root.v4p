@@ -1,0 +1,103 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="20235" height="31350">
+  </BOUNDS>
+  <LINK srcnodeid="40" srcpinname="Y Output Value" dstnodeid="39" dstpinname="u lightDir">
+  </LINK>
+  <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="50" dstpinname="skybox">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="39" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="44" srcpinname="Texture Out" dstnodeid="39" dstpinname="tNormal1">
+  </LINK>
+  <LINK srcnodeid="45" srcpinname="Output String" dstnodeid="44" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="39" dstpinname="Texture Transform">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Transform Out" dstnodeid="61" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="61" srcpinname="Transform Out" dstnodeid="58" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="40" srcpinname="Y Output Value" dstnodeid="58" dstpinname="u lightDir">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Output String" dstnodeid="64" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="67" srcpinname="Output String" dstnodeid="66" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="66" srcpinname="Texture Out" dstnodeid="58" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="79" srcpinname="Y Output Value" dstnodeid="39" dstpinname="refraction etaRatio">
+  </LINK>
+  <LINK srcnodeid="117" srcpinname="Y Output Value" dstnodeid="39" dstpinname="refract amount">
+  </LINK>
+  <LINK srcnodeid="58" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="139" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="40" srcpinname="Y Output Value" dstnodeid="139" dstpinname="u lightDir">
+  </LINK>
+  <LINK srcnodeid="153" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 5">
+  </LINK>
+  <LINK srcnodeid="40" srcpinname="Y Output Value" dstnodeid="153" dstpinname="u lightDir">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="153" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="View" dstnodeid="188" dstpinname="View">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Projection" dstnodeid="188" dstpinname="Projection">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="58" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="ResolutionX" dstnodeid="188" dstpinname="Backbuffer Width">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="ResolutionY" dstnodeid="188" dstpinname="Backbuffer Height">
+  </LINK>
+  <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="188" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="47" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="139" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 4">
+  </LINK>
+  <LINK srcnodeid="59" srcpinname="Mesh" dstnodeid="58" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="199" srcpinname="Output String" dstnodeid="37" dstpinname="FileName">
+  </LINK>
+  <LINK srcnodeid="37" srcpinname="Mesh" dstnodeid="39" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="202" srcpinname="Transform Out" dstnodeid="39" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="204" srcpinname="Output String" dstnodeid="41" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Texture Out" dstnodeid="39" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="207" srcpinname="Transform Out" dstnodeid="58" dstpinname="Texture Transform">
+  </LINK>
+  <LINK srcnodeid="208" srcpinname="Y Output Value" dstnodeid="207" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="64" srcpinname="Texture Out" dstnodeid="58" dstpinname="tNormal1">
+  </LINK>
+  <LINK srcnodeid="210" srcpinname="Transform Out" dstnodeid="60" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="212" srcpinname="Output" dstnodeid="202" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="214" srcpinname="Output" dstnodeid="202" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="205" srcpinname="Transform Out" dstnodeid="217" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="217" srcpinname="Transform Out" dstnodeid="202" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="Y Output Value" dstnodeid="217" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="219" srcpinname="Y Output Value" dstnodeid="217" dstpinname="X">
+  </LINK>
+  </PATCH>
