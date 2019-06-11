@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="31350">
+  <BOUNDS type="Window" width="23745" height="31350">
   </BOUNDS>
   <NODE id="39" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
   <BOUNDS type="Node" left="1560" top="4605" width="7575" height="100">
@@ -147,7 +147,7 @@
   </PIN>
   </NODE>
   <NODE id="52" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="765" top="6510" width="21090" height="100">
+  <BOUNDS type="Node" left="765" top="6495" width="21090" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -682,6 +682,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="222" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2295" top="1545" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="light" visible="1">
+  </PIN>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -689,8 +701,6 @@
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="50" dstpinname="skybox">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="39" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 2">
   </LINK>
@@ -781,5 +791,9 @@
   <LINK srcnodeid="213" srcpinname="Transform Out" dstnodeid="212" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="212" srcpinname="Transform Out" dstnodeid="139" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="222" srcpinname="Layer" dstnodeid="52" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="222" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
