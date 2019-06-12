@@ -466,6 +466,14 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="78" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="465" top="345" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Transform|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
@@ -523,5 +531,9 @@
   <LINK srcnodeid="75" srcpinname="Output" dstnodeid="42" dstpinname="Ambient Color">
   </LINK>
   <LINK srcnodeid="76" srcpinname="Output" dstnodeid="75" dstpinname="Value">
+  </LINK>
+  <LINK srcnodeid="78" srcpinname="Output Node" dstnodeid="68" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="78" srcpinname="Output Node" dstnodeid="63" dstpinname="Transform In">
   </LINK>
   </PATCH>
