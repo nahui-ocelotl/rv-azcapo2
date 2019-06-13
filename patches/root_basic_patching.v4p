@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19860" height="31350">
+  <BOUNDS type="Window" width="19365" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="12000" top="2340" width="100" height="100">
@@ -1173,5 +1173,13 @@
   <LINK srcnodeid="262" srcpinname="Transform Out" dstnodeid="261" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="261" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 15">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="261" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="259" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="257" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="253" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
