@@ -43,7 +43,7 @@
   </PIN>
   <PIN pinname="u roughness" visible="1" values="|0.5800000000000003|">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1">
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
   </PIN>
   <PIN pinname="u diffuseColor" visible="1" values="|0.02500000037252903, 0.02500000037252903, 0.02500000037252903, 1|">
   </PIN>
@@ -436,36 +436,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="75" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7695" top="3975" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Hue" visible="1">
-  </PIN>
-  <PIN pinname="Saturation" visible="1">
-  </PIN>
-  <PIN pinname="Value" visible="1">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="76" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8070" top="2835" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Input 3" visible="1">
-  </PIN>
-  <PIN pinname="Input 4" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="78" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="465" top="345" width="100" height="100">
   </BOUNDS>
@@ -555,10 +525,6 @@
   <LINK srcnodeid="73" srcpinname="Output" dstnodeid="62" dstpinname="Hue">
   </LINK>
   <LINK srcnodeid="74" srcpinname="Output" dstnodeid="62" dstpinname="Saturation">
-  </LINK>
-  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="42" dstpinname="Ambient Color">
-  </LINK>
-  <LINK srcnodeid="76" srcpinname="Output" dstnodeid="75" dstpinname="Value">
   </LINK>
   <LINK srcnodeid="79" srcpinname="Transform Out" dstnodeid="42" dstpinname="Texture Transform">
   </LINK>
