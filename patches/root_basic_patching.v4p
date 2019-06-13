@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="31350">
+  <BOUNDS type="Window" width="19500" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -503,7 +503,7 @@
   </PIN>
   </NODE>
   <NODE id="223" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1935" top="10740" width="100" height="100">
+  <BOUNDS type="Node" left="855" top="11685" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -669,7 +669,7 @@
   <NODE id="235" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="17880" top="4035" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  <PIN pinname="Y Input Value" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -787,7 +787,7 @@
   </PIN>
   </NODE>
   <NODE id="245" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3750" top="6165" width="100" height="100">
+  <BOUNDS type="Node" left="3600" top="6195" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -797,7 +797,7 @@
   </PIN>
   </NODE>
   <NODE id="246" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3750" top="5610" width="100" height="100">
+  <BOUNDS type="Node" left="3600" top="5640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -811,7 +811,7 @@
   </PIN>
   </NODE>
   <NODE id="247" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5280" top="6105" width="100" height="100">
+  <BOUNDS type="Node" left="5010" top="6105" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -821,7 +821,7 @@
   </PIN>
   </NODE>
   <NODE id="248" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5280" top="5550" width="100" height="100">
+  <BOUNDS type="Node" left="5010" top="5550" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -883,7 +883,7 @@
   </PIN>
   </NODE>
   <NODE id="253" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3765" top="7470" width="100" height="100">
+  <BOUNDS type="Node" left="3615" top="7500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -893,7 +893,7 @@
   </PIN>
   </NODE>
   <NODE id="254" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3765" top="6915" width="100" height="100">
+  <BOUNDS type="Node" left="3615" top="6945" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -907,7 +907,7 @@
   </PIN>
   </NODE>
   <NODE id="255" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5310" top="7470" width="100" height="100">
+  <BOUNDS type="Node" left="5040" top="7470" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -917,7 +917,7 @@
   </PIN>
   </NODE>
   <NODE id="256" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5310" top="6915" width="100" height="100">
+  <BOUNDS type="Node" left="5040" top="6915" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -979,7 +979,7 @@
   </PIN>
   </NODE>
   <NODE id="261" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3810" top="8625" width="100" height="100">
+  <BOUNDS type="Node" left="3660" top="8655" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -989,7 +989,7 @@
   </PIN>
   </NODE>
   <NODE id="262" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3810" top="8070" width="100" height="100">
+  <BOUNDS type="Node" left="3660" top="8100" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1003,13 +1003,13 @@
   </PIN>
   </NODE>
   <NODE id="263" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7185" top="4650" width="100" height="100">
+  <BOUNDS type="Node" left="6945" top="4695" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|_ b|">
   </PIN>
   </NODE>
   <NODE id="264" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
@@ -1021,13 +1021,19 @@
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer 4" visible="1">
+  </PIN>
+  <PIN pinname="Layer 5" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|5|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="265" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1485" top="11970" width="100" height="100">
+  <BOUNDS type="Node" left="1215" top="12450" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -1041,17 +1047,113 @@
   </PIN>
   </NODE>
   <NODE id="266" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6915" top="3975" width="100" height="100">
+  <BOUNDS type="Node" left="6945" top="4170" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|0|">
+  <PIN pinname="X" visible="1" values="|-62|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|0|">
+  <PIN pinname="Z" visible="1" values="|34|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="267" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="8370" top="4695" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ g|">
+  </PIN>
+  </NODE>
+  <NODE id="268" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8370" top="4170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-95|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|92|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="269" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="6960" top="5955" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ k|">
+  </PIN>
+  </NODE>
+  <NODE id="270" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6960" top="5430" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|37|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|83|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="272" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8400" top="5445" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-121|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|43|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="275" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6975" top="6705" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-142|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|51|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="276" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="8415" top="5985" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ pec1|">
+  </PIN>
+  </NODE>
+  <NODE id="277" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="6960" top="7320" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ pec2|">
   </PIN>
   </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
@@ -1241,5 +1343,31 @@
   <LINK srcnodeid="265" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="266" srcpinname="Transform Out" dstnodeid="263" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="263" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="268" srcpinname="Transform Out" dstnodeid="267" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="267" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="267" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="270" srcpinname="Transform Out" dstnodeid="269" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="269" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="269" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="277" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="276" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="276" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 4">
+  </LINK>
+  <LINK srcnodeid="277" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 5">
+  </LINK>
+  <LINK srcnodeid="275" srcpinname="Transform Out" dstnodeid="277" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="272" srcpinname="Transform Out" dstnodeid="276" dstpinname="Transform">
   </LINK>
   </PATCH>
