@@ -251,7 +251,7 @@
   </PIN>
   <PIN pinname="X" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|1|">
+  <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -333,13 +333,13 @@
   <NODE id="66" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="4620" top="2040" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/muro.jpg|">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/edificio1.jpg|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/edificio1.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -347,7 +347,7 @@
   </PIN>
   </NODE>
   <NODE id="67" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3375" top="2655" width="100" height="100">
+  <BOUNDS type="Node" left="2820" top="2850" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|50|">
   </PIN>
