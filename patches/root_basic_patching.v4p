@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19005" height="31350">
+  <BOUNDS type="Window" width="18510" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -1217,7 +1217,31 @@
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|56|">
+  <PIN pinname="Z" visible="1" values="|54|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="283" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="8355" top="8655" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ i|">
+  </PIN>
+  </NODE>
+  <NODE id="284" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8355" top="8070" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|12|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|62|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1449,5 +1473,11 @@
   <LINK srcnodeid="278" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="279" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="284" srcpinname="Transform Out" dstnodeid="283" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="283" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="283" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
