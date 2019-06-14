@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19950" height="31350">
+  <BOUNDS type="Window" width="23745" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -583,7 +583,7 @@
   </PIN>
   </NODE>
   <NODE id="227" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5145" top="12330" width="100" height="100">
+  <BOUNDS type="Node" left="1245" top="13575" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -1015,7 +1015,7 @@
   </PIN>
   </NODE>
   <NODE id="264" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4410" top="10095" width="100" height="100">
+  <BOUNDS type="Node" left="1785" top="10980" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -1035,7 +1035,7 @@
   </PIN>
   </NODE>
   <NODE id="265" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5010" top="11070" width="100" height="100">
+  <BOUNDS type="Node" left="1110" top="12315" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -1171,7 +1171,7 @@
   </PIN>
   </NODE>
   <NODE id="279" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6165" top="10020" width="100" height="100">
+  <BOUNDS type="Node" left="3540" top="10905" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -1269,6 +1269,12 @@
   </PIN>
   <PIN pinname="Z" visible="1" values="|79|">
   </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="287" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="6075" top="10590" width="100" height="100">
+  </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
