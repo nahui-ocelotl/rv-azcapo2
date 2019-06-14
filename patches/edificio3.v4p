@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="17265">
+  <BOUNDS type="Window" width="19500" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="9270" top="6804" width="750" height="240">
@@ -101,7 +101,7 @@
   </PIN>
   <PIN pinname="X" visible="1">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|9|">
+  <PIN pinname="Y" visible="1" values="|4.5|">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -127,7 +127,7 @@
   </PIN>
   <PIN pinname="X" visible="1">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|4.48|">
+  <PIN pinname="Y" visible="1" values="|2.4000000000000234|">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -293,7 +293,7 @@
   </PIN>
   <PIN pinname="X" visible="1" values="|0.25|">
   </PIN>
-  <PIN pinname="Y" visible="1">
+  <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -303,13 +303,11 @@
   <NODE id="64" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="11760" top="2280" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-8.920000000000032|">
+  <PIN pinname="Input 1" visible="1" values="|-0.3|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-4.440000000000018|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|-0.28|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -333,13 +331,13 @@
   <NODE id="66" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="4620" top="2040" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/edificio1.jpg|">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/muro.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/muro.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/edificio1.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -411,13 +409,11 @@
   <NODE id="73" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="16365" top="3120" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0.56|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|0.56|">
   </PIN>
-  <PIN pinname="Input 3" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -425,13 +421,11 @@
   <NODE id="74" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="17325" top="3030" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|1|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Input 3" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -445,7 +439,7 @@
   </PIN>
   </NODE>
   <NODE id="79" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2880" top="3795" width="100" height="100">
+  <BOUNDS type="Node" left="2955" top="4290" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -504,8 +498,6 @@
   </LINK>
   <LINK srcnodeid="62" srcpinname="Output" dstnodeid="52" dstpinname="Ambient Color">
   </LINK>
-  <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 2">
-  </LINK>
   <LINK srcnodeid="63" srcpinname="Transform Out" dstnodeid="59" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="64" srcpinname="Output" dstnodeid="59" dstpinname="Z">
@@ -533,5 +525,7 @@
   <LINK srcnodeid="80" srcpinname="Transform Out" dstnodeid="68" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="80" srcpinname="Transform Out" dstnodeid="63" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 2">
   </LINK>
   </PATCH>
