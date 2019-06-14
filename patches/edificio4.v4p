@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="17520" height="17265">
+  <BOUNDS type="Window" width="17025" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="9270" top="6804" width="750" height="240">
@@ -315,7 +315,7 @@
   <NODE id="65" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="2700" top="2250" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|4|">
+  <PIN pinname="Input 1" visible="1" values="|3.9|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-25|">
   </PIN>
