@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="31350">
+  <BOUNDS type="Window" width="19500" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -1275,7 +1275,7 @@
   </PIN>
   </NODE>
   <NODE id="287" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5085" top="9495" width="100" height="100">
+  <BOUNDS type="Node" left="3540" top="8640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
@@ -1285,15 +1285,15 @@
   </PIN>
   </NODE>
   <NODE id="289" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5100" top="8955" width="100" height="100">
+  <BOUNDS type="Node" left="3555" top="8100" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|60|">
+  <PIN pinname="X" visible="1" values="|26|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-8|">
+  <PIN pinname="Z" visible="1" values="|30|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1307,31 +1307,57 @@
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="291" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="6705" top="9480" width="100" height="100">
+  <BOUNDS type="Node" left="5145" top="8625" width="100" height="100">
   </BOUNDS>
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ l|">
+  <PIN pinname="Descriptive Name" visible="0" values="|_ u|">
   </PIN>
   </NODE>
   <NODE id="292" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6720" top="8940" width="100" height="100">
+  <BOUNDS type="Node" left="5175" top="8085" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|60|">
+  <PIN pinname="X" visible="1" values="|106|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-8|">
+  <PIN pinname="Z" visible="1" values="|-2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="294" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="6780" top="8550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ w|">
+  </PIN>
+  </NODE>
+  <NODE id="295" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6795" top="8025" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|93|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|51|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1589,5 +1615,11 @@
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="291" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="291" srcpinname="Layer" dstnodeid="290" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="295" srcpinname="Transform Out" dstnodeid="294" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="294" srcpinname="Layer" dstnodeid="290" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="294" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
