@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="19740" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -279,7 +279,7 @@
   </PIN>
   </NODE>
   <NODE id="153" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="23220" top="11760" width="100" height="100">
+  <BOUNDS type="Node" left="24705" top="9930" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -329,7 +329,7 @@
   </PIN>
   </NODE>
   <NODE id="154" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25635" top="10830" width="100" height="100">
+  <BOUNDS type="Node" left="25665" top="8880" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -339,7 +339,7 @@
   </PIN>
   </NODE>
   <NODE id="158" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="28140" top="10815" width="100" height="100">
+  <BOUNDS type="Node" left="28170" top="8865" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -1325,7 +1325,7 @@
   </PIN>
   </NODE>
   <NODE id="298" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26490" top="10815" width="100" height="100">
+  <BOUNDS type="Node" left="26520" top="8865" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1335,7 +1335,7 @@
   </PIN>
   </NODE>
   <NODE id="299" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26220" top="8055" width="100" height="100">
+  <BOUNDS type="Node" left="25950" top="7530" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1349,7 +1349,7 @@
   </PIN>
   </NODE>
   <NODE id="301" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26700" top="5880" width="100" height="100">
+  <BOUNDS type="Node" left="26430" top="5355" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-53.5|">
   </PIN>
@@ -1361,7 +1361,7 @@
   </PIN>
   </NODE>
   <NODE id="302" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="27135" top="6720" width="100" height="100">
+  <BOUNDS type="Node" left="26865" top="6195" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|7|">
   </PIN>
@@ -1373,7 +1373,7 @@
   </PIN>
   </NODE>
   <NODE id="303" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="27630" top="7500" width="100" height="100">
+  <BOUNDS type="Node" left="27360" top="6975" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|20.5|">
   </PIN>
@@ -1385,7 +1385,7 @@
   </PIN>
   </NODE>
   <NODE id="305" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="26610" top="9075" width="100" height="100">
+  <BOUNDS type="Node" left="26355" top="8145" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1399,13 +1399,47 @@
   </PIN>
   </NODE>
   <NODE id="306" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="27870" top="9450" width="100" height="100">
+  <BOUNDS type="Node" left="27915" top="8130" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|tex/facade/a.png|">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="307" nodename="PhongDirectional (EX9.Effect)" systemname="PhongDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/PhongDirectional.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="24660" top="10965" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Light Direction XYZ" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1">
+  </PIN>
+  <PIN pinname="Diffuse Color" visible="1">
+  </PIN>
+  <PIN pinname="Specular Color" visible="1">
+  </PIN>
+  <PIN pinname="Power" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1666,8 +1700,6 @@
   </LINK>
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="296" dstpinname="EnvironmentMap">
   </LINK>
-  <LINK srcnodeid="153" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
-  </LINK>
   <LINK srcnodeid="298" srcpinname="Transform Out" dstnodeid="153" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="301" srcpinname="Output" dstnodeid="299" dstpinname="X">
@@ -1681,5 +1713,13 @@
   <LINK srcnodeid="305" srcpinname="Transform Out" dstnodeid="298" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="306" srcpinname="Output" dstnodeid="158" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="154" srcpinname="Mesh" dstnodeid="307" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="298" srcpinname="Transform Out" dstnodeid="307" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="158" srcpinname="Texture Out" dstnodeid="307" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="307" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
   </LINK>
   </PATCH>
