@@ -279,7 +279,7 @@
   </PIN>
   </NODE>
   <NODE id="153" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="26340" top="11460" width="100" height="100">
+  <BOUNDS type="Node" left="23220" top="11760" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -323,7 +323,7 @@
   </PIN>
   <PIN pinname="BumpFactor" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="refract amount" visible="1" values="|1|">
+  <PIN pinname="refract amount" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ letras|">
   </PIN>
@@ -607,7 +607,7 @@
   <NODE id="235" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="17880" top="4035" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1380,16 +1380,6 @@
   <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="304" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="15675" top="4755" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
