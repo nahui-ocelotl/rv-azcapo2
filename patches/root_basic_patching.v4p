@@ -1279,7 +1279,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="XYZ" visible="1" values="|2|">
+  <PIN pinname="XYZ" visible="1" values="|1.5|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1313,7 +1313,7 @@
   <NODE id="302" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="26865" top="6195" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|7|">
+  <PIN pinname="Input 1" visible="1" values="|6.9999999999999964|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-7|">
   </PIN>
@@ -1325,7 +1325,7 @@
   <NODE id="303" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="27360" top="6975" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|20.5|">
+  <PIN pinname="Input 1" visible="1" values="|20.96000000000005|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
