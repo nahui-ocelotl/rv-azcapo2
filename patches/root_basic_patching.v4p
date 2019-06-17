@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="31350">
+  <BOUNDS type="Window" width="20235" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -276,56 +276,6 @@
   <PIN pinname="refract amount" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="153" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="24705" top="9930" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Render State" visible="1">
-  </PIN>
-  <PIN pinname="Mesh" visible="1">
-  </PIN>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Technique" visible="1">
-  </PIN>
-  <PIN pinname="VS Defines" visible="1">
-  </PIN>
-  <PIN pinname="PS Defines" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform col" visible="1">
-  </PIN>
-  <PIN pinname="CamPos" visible="1" values="|-0.1521294331231863|,|-3.9271828229926697|,|37.62561661064693|">
-  </PIN>
-  <PIN pinname="refraction etaRatio" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="tNormal1" visible="1">
-  </PIN>
-  <PIN pinname="tCol1" visible="1">
-  </PIN>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
-  <PIN pinname="u fresnel0" visible="1" values="|0.1|">
-  </PIN>
-  <PIN pinname="u roughness" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
-  </PIN>
-  <PIN pinname="u diffuseColor" visible="1" values="|1, 1, 1, 1|">
-  </PIN>
-  <PIN pinname="u lightColor" visible="1" values="|1, 1, 1, 1|">
-  </PIN>
-  <PIN pinname="u lightDir" visible="1" values="|0|,|0|,|0|">
-  </PIN>
-  <PIN pinname="NormalScale" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="BumpFactor" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="refract amount" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ letras|">
   </PIN>
   </NODE>
   <NODE id="154" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
@@ -1429,7 +1379,7 @@
   </PIN>
   <PIN pinname="Light Direction XYZ" visible="1">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1">
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
   </PIN>
   <PIN pinname="Diffuse Color" visible="1">
   </PIN>
@@ -1468,10 +1418,6 @@
   </LINK>
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="139" dstpinname="EnvironmentMap">
   </LINK>
-  <LINK srcnodeid="158" srcpinname="Texture Out" dstnodeid="153" dstpinname="tNormal1">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="153" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="195" srcpinname="View" dstnodeid="188" dstpinname="View">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Projection" dstnodeid="188" dstpinname="Projection">
@@ -1487,8 +1433,6 @@
   <LINK srcnodeid="47" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="208" srcpinname="Mesh" dstnodeid="139" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="154" srcpinname="Mesh" dstnodeid="153" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="213" srcpinname="Transform Out" dstnodeid="212" dstpinname="Transform In">
   </LINK>
@@ -1699,8 +1643,6 @@
   <LINK srcnodeid="296" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 4">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="296" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="298" srcpinname="Transform Out" dstnodeid="153" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="301" srcpinname="Output" dstnodeid="299" dstpinname="X">
   </LINK>
