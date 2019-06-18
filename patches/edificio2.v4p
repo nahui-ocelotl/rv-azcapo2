@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="17265">
+  <BOUNDS type="Window" width="19740" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="8805" top="13389" width="750" height="240">
@@ -155,7 +155,7 @@
   </PIN>
   </NODE>
   <NODE id="51" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
-  <BOUNDS type="Box" left="5685" top="3585" width="100" height="100">
+  <BOUNDS type="Box" left="8430" top="3060" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input Node" visible="1">
   </PIN>
@@ -553,7 +553,7 @@
   </PIN>
   <PIN pinname="Y" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-3|">
+  <PIN pinname="Z" visible="1" values="|-2.9899999999999944|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -741,7 +741,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-2.45|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-2.990000000000005|">
+  <PIN pinname="Input 2" visible="1" values="|-3.0000000000000058|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|-2.45|">
   </PIN>
@@ -831,7 +831,7 @@
   <NODE id="98" nodename="LinearSpread (Spreads)" systemname="LinearSpread (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="12225" top="7140" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input" visible="1" values="|2.4|">
+  <PIN pinname="Input" visible="1" values="|2.5|">
   </PIN>
   <PIN pinname="Width" visible="1" values="|1|">
   </PIN>
