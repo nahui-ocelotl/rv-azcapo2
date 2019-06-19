@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16275" height="14340">
+  <BOUNDS type="Window" width="19740" height="14340">
   </BOUNDS>
   <NODE id="1" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="6480" top="9735" width="100" height="100">
@@ -95,7 +95,7 @@
   </PIN>
   </NODE>
   <NODE id="9" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5970" top="6840" width="100" height="100">
+  <BOUNDS type="Node" left="6015" top="7200" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -187,7 +187,7 @@
   </PIN>
   </NODE>
   <NODE id="18" nodename="S+H (Animation)" systemname="S+H (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7035" top="5040" width="100" height="100">
+  <BOUNDS type="Node" left="7170" top="5340" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -217,7 +217,7 @@
   </PIN>
   </NODE>
   <NODE id="21" nodename="Vector (2d Split)" systemname="Vector (2d Split)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7065" top="6780" width="100" height="100">
+  <BOUNDS type="Node" left="7005" top="7140" width="100" height="100">
   </BOUNDS>
   <PIN pinname="XY" visible="1">
   </PIN>
@@ -265,7 +265,7 @@
   </PIN>
   </NODE>
   <NODE id="25" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7770" top="7425" width="100" height="100">
+  <BOUNDS type="Node" left="7800" top="7890" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -287,7 +287,7 @@
   </PIN>
   </NODE>
   <NODE id="28" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8130" top="12840" width="0" height="0">
+  <BOUNDS type="Box" left="8550" top="12585" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -420,16 +420,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="|x|">
   </PIN>
   </NODE>
-  <NODE id="44" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="13080" top="1305" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|z|">
-  </PIN>
-  </NODE>
   <NODE id="47" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
   <BOUNDS type="Node" left="12420" top="2145" width="100" height="100">
   </BOUNDS>
@@ -442,6 +432,16 @@
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="48" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="13440" top="1305" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|z|">
   </PIN>
   </NODE>
   <LINK srcnodeid="2" srcpinname="Output" dstnodeid="1" dstpinname="X">
@@ -534,16 +534,14 @@
   </LINK>
   <LINK srcnodeid="39" srcpinname="Y Output Value" dstnodeid="41" dstpinname="Switch">
   </LINK>
-  <LINK srcnodeid="7" srcpinname="Mouse Wheel" dstnodeid="44" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="7" srcpinname="Mouse Wheel" dstnodeid="47" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="44" srcpinname="Y Output Value" dstnodeid="47" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="39" srcpinname="Y Output Value" dstnodeid="47" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="47" srcpinname="Output" dstnodeid="13" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="42" srcpinname="Y Output Value" dstnodeid="23" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="48" srcpinname="Y Output Value" dstnodeid="47" dstpinname="Input 2">
   </LINK>
   </PATCH>
