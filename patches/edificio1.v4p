@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18015" height="17265">
+  <BOUNDS type="Window" width="17520" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="7455" top="10854" width="750" height="240">
@@ -870,6 +870,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="105" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6570" top="915" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|camPos|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
@@ -989,5 +999,15 @@
   <LINK srcnodeid="85" srcpinname="Output" dstnodeid="99" dstpinname="Ambient Color">
   </LINK>
   <LINK srcnodeid="104" srcpinname="Output" dstnodeid="100" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="42" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="52" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="82" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="88" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="99" dstpinname="CamPos">
   </LINK>
   </PATCH>

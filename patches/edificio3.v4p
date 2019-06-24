@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="23745" height="17265">
+  <BOUNDS type="Window" width="19995" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="9270" top="6804" width="750" height="240">
@@ -333,9 +333,9 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|tex/facade/icampa2.jpg|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|tex/facade/campa1.jpg|">
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|tex/facade/campa1.jpg|">
+  <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
   </PIN>
