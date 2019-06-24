@@ -267,7 +267,7 @@
   </PIN>
   </NODE>
   <NODE id="195" nodename="./Camera_Touch.v4p" systemname="./Camera_Touch" filename="./Camera_Touch.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3555" top="12060" width="100" height="100">
+  <BOUNDS type="Node" left="3420" top="15120" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|30|">
   </PIN>
@@ -1585,7 +1585,7 @@
   </PIN>
   </NODE>
   <NODE id="325" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14535" top="12840" width="100" height="100">
+  <BOUNDS type="Node" left="11295" top="13590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1599,7 +1599,7 @@
   </PIN>
   </NODE>
   <NODE id="326" nodename="./camera_ego.v4p" systemname="./camera_ego" filename="./camera_ego.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="6780" top="15825" width="100" height="100">
+  <BOUNDS type="Node" left="5445" top="15045" width="2445" height="100">
   </BOUNDS>
   <PIN pinname="moveIn" visible="1">
   </PIN>
@@ -1610,6 +1610,82 @@
   <PIN pinname="Reset" visible="1">
   </PIN>
   <PIN pinname="IntitialXZ" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="327" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6375" top="13170" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|-2|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="328" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6015" top="12480" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="329" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6750" top="13965" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="330" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8640" top="16185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="331" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8865" top="15435" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="333" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8025" top="13965" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|30|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="334" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5010" top="13620" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1884,8 +1960,6 @@
   </LINK>
   <LINK srcnodeid="315" srcpinname="Transform Out" dstnodeid="312" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="195" srcpinname="View" dstnodeid="188" dstpinname="View">
-  </LINK>
   <LINK srcnodeid="195" srcpinname="Projection" dstnodeid="188" dstpinname="Projection">
   </LINK>
   <LINK srcnodeid="319" srcpinname="Mesh" dstnodeid="318" dstpinname="Mesh">
@@ -1959,5 +2033,23 @@
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="291" dstpinname="camPos">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="294" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="327" srcpinname="Y Output Value" dstnodeid="326" dstpinname="y">
+  </LINK>
+  <LINK srcnodeid="328" srcpinname="Y Output Value" dstnodeid="326" dstpinname="moveIn">
+  </LINK>
+  <LINK srcnodeid="329" srcpinname="Y Output Value" dstnodeid="326" dstpinname="Reset">
+  </LINK>
+  <LINK srcnodeid="326" srcpinname="View" dstnodeid="330" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="View" dstnodeid="330" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="188" dstpinname="View">
+  </LINK>
+  <LINK srcnodeid="331" srcpinname="Y Output Value" dstnodeid="330" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="333" srcpinname="Output" dstnodeid="326" dstpinname="IntitialXZ">
+  </LINK>
+  <LINK srcnodeid="334" srcpinname="Y Output Value" dstnodeid="326" dstpinname="Rotate">
   </LINK>
   </PATCH>
