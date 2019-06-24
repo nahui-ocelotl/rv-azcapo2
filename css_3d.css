@@ -147,6 +147,20 @@ h2
     width: 100px;
 }
 
+#btn-opochtli {
+    position: absolute;
+    left: 10px;
+    top: 240px;
+    width: 100px;
+}
+
+#btn-yectli {
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    width: 100px;
+}
+
 .statement {
     position:absolute;
     left:50%;
