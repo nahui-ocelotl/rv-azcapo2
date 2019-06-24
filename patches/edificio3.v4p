@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="17265">
+  <BOUNDS type="Window" width="19500" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="9270" top="6804" width="750" height="240">
@@ -482,6 +482,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="82" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7260" top="720" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|camPos|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
@@ -545,5 +555,9 @@
   <LINK srcnodeid="52" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="81" srcpinname="Output" dstnodeid="79" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="82" srcpinname="Y Output Value" dstnodeid="42" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="82" srcpinname="Y Output Value" dstnodeid="52" dstpinname="CamPos">
   </LINK>
   </PATCH>

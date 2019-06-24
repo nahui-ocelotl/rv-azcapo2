@@ -851,6 +851,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ b|">
   </PIN>
   </NODE>
@@ -913,6 +915,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ g|">
   </PIN>
   </NODE>
@@ -936,6 +940,8 @@
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ k|">
   </PIN>
@@ -989,6 +995,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ pec1|">
   </PIN>
   </NODE>
@@ -999,6 +1007,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ pec2|">
   </PIN>
   </NODE>
@@ -1008,6 +1018,8 @@
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ h|">
   </PIN>
@@ -1077,6 +1089,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ i|">
   </PIN>
   </NODE>
@@ -1101,6 +1115,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ difusion|">
   </PIN>
   </NODE>
@@ -1124,6 +1140,8 @@
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ l|">
   </PIN>
@@ -1165,6 +1183,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ u|">
   </PIN>
   </NODE>
@@ -1189,6 +1209,8 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="camPos" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ w|">
   </PIN>
   </NODE>
@@ -1212,6 +1234,8 @@
   <PIN pinname="EnvironmentMap" visible="1">
   </PIN>
   <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ azc|">
   </PIN>
@@ -1895,5 +1919,29 @@
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="280" dstpinname="camPos">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="261" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="263" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="267" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="269" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="276" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="277" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="278" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="283" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="285" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="296" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="287" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="291" dstpinname="camPos">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="294" dstpinname="camPos">
   </LINK>
   </PATCH>
