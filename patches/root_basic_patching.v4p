@@ -267,7 +267,7 @@
   </PIN>
   </NODE>
   <NODE id="195" nodename="./Camera_Touch.v4p" systemname="./Camera_Touch" filename="./Camera_Touch.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="4065" top="13230" width="100" height="100">
+  <BOUNDS type="Node" left="3555" top="12060" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|30|">
   </PIN>
@@ -1594,22 +1594,6 @@
   <PIN pinname="Y" visible="1">
   </PIN>
   <PIN pinname="Z" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="326" nodename="./camera_ego.v4p" systemname="./camera_ego" filename="./camera_ego.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="4875" top="15300" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="moveIn" visible="1">
-  </PIN>
-  <PIN pinname="Rotate" visible="1">
-  </PIN>
-  <PIN pinname="y" visible="1">
-  </PIN>
-  <PIN pinname="Reset" visible="1">
-  </PIN>
-  <PIN pinname="IntitialXZ" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
