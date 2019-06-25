@@ -2075,7 +2075,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|#btn-yectmalacachoa|">
+  <PIN pinname="Input String" visible="1" values="|#btn-yecmalacachoa|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
