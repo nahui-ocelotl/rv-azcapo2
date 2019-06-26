@@ -1273,7 +1273,7 @@
   </PIN>
   <PIN pinname="Light Direction XYZ" visible="1" values="|0|,|-5|,|2|">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1" values="|0.15000,0.15000,0.15000,1.00000|">
+  <PIN pinname="Ambient Color" visible="1">
   </PIN>
   <PIN pinname="Diffuse Color" visible="1" values="|0.85000,0.85000,0.85000,1.00000|">
   </PIN>
@@ -1305,9 +1305,9 @@
   </PIN>
   <PIN pinname="X" visible="1">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|3|">
+  <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-26|">
+  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1357,11 +1357,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|25|,|1|,|25|">
+  <PIN pinname="X" visible="1">
   </PIN>
   <PIN pinname="Y" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|1|">
+  <PIN pinname="Z" visible="1" values="|25|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1879,15 +1879,17 @@
   </PIN>
   </NODE>
   <NODE id="403" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10230" top="12195" width="100" height="100">
+  <BOUNDS type="Node" left="9390" top="11310" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-80|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-10|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|60|">
+  <PIN pinname="Input 3" visible="1" values="|-4|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input 4" visible="1" values="|60|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1899,29 +1901,33 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|135|">
+  <PIN pinname="Input 3" visible="1" values="|5|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input 4" visible="1" values="|135|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="405" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12570" top="12600" width="100" height="100">
+  <BOUNDS type="Node" left="12570" top="12600" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|tex/facade/leja.png|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|tex/facade/tlatzacuillotl.png|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|tex/facade/leja.png|">
+  <PIN pinname="Input 3" visible="1" values="|tex/facade/ezcuto.png|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|3|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/leja.png|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="406" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="5400" top="20385" width="100" height="100">
+  <BOUNDS type="Node" left="4005" top="18570" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -1971,13 +1977,13 @@
   </PIN>
   </NODE>
   <NODE id="407" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6555" top="19275" width="100" height="100">
+  <BOUNDS type="Node" left="5160" top="17460" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="408" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7215" top="19230" width="100" height="100">
+  <BOUNDS type="Node" left="5820" top="17415" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2071,7 +2077,7 @@
   </PIN>
   </NODE>
   <NODE id="416" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8130" top="18450" width="100" height="100">
+  <BOUNDS type="Node" left="6735" top="16635" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2089,7 +2095,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-0.055|">
+  <PIN pinname="Input 2" visible="1" values="|-0.058|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -2109,13 +2115,75 @@
   </PIN>
   </NODE>
   <NODE id="419" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8685" top="19410" width="100" height="100">
+  <BOUNDS type="Node" left="7290" top="17595" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Hue" visible="1">
   </PIN>
   <PIN pinname="Saturation" visible="1">
   </PIN>
   <PIN pinname="Value" visible="1" values="|0.75|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="421" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11130" top="12780" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|25|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|25|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="422" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9930" top="12090" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|3.2|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="423" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11070" top="12180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-26.1|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="424" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11805" top="14010" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1">
+  </PIN>
+  <PIN pinname="Saturation" visible="1">
+  </PIN>
+  <PIN pinname="Value" visible="1" values="|0.6|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
   </PIN>
@@ -2559,5 +2627,13 @@
   <LINK srcnodeid="418" srcpinname="Output" dstnodeid="378" dstpinname="X">
   </LINK>
   <LINK srcnodeid="419" srcpinname="Output" dstnodeid="406" dstpinname="Ambient Color">
+  </LINK>
+  <LINK srcnodeid="421" srcpinname="Output" dstnodeid="325" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="422" srcpinname="Output" dstnodeid="320" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="423" srcpinname="Output" dstnodeid="320" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="424" srcpinname="Output" dstnodeid="318" dstpinname="Ambient Color">
   </LINK>
   </PATCH>
