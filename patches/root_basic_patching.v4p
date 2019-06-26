@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="20145" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -459,11 +459,11 @@
   <NODE id="235" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="17880" top="4035" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|mapa|">
   </PIN>
   </NODE>
   <NODE id="236" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
@@ -1366,52 +1366,14 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="326" nodename="./camera_ego.v4p" systemname="./camera_ego" filename="./camera_ego.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5430" top="15045" width="2445" height="100">
-  </BOUNDS>
-  <PIN pinname="moveIn" visible="1">
-  </PIN>
-  <PIN pinname="Rotate" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="y" visible="1" values="|-2|">
-  </PIN>
-  <PIN pinname="Reset" visible="1">
-  </PIN>
-  <PIN pinname="IntitialXZ" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="328" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5910" top="13245" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="329" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="6705" top="13965" width="0" height="0">
+  <BOUNDS type="Box" left="14355" top="19050" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|reset|">
-  </PIN>
-  </NODE>
-  <NODE id="333" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8025" top="13965" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|30|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="335" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
@@ -1666,16 +1628,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="371" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7860" top="12780" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="372" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="18585" top="17490" width="100" height="100">
   </BOUNDS>
@@ -1699,7 +1651,7 @@
   </PIN>
   </NODE>
   <NODE id="378" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10455" top="21750" width="100" height="100">
+  <BOUNDS type="Node" left="11145" top="22740" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1739,7 +1691,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|33|">
+  <PIN pinname="Input 2" visible="1" values="|25|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1759,7 +1711,7 @@
   </PIN>
   </NODE>
   <NODE id="386" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="19185" top="20550" width="100" height="100">
+  <BOUNDS type="Node" left="10110" top="21750" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2132,6 +2084,30 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="417" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10155" top="20895" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-0.055|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="418" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12630" top="21450" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2436,12 +2412,6 @@
   </LINK>
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="294" dstpinname="camPos">
   </LINK>
-  <LINK srcnodeid="328" srcpinname="Y Output Value" dstnodeid="326" dstpinname="moveIn">
-  </LINK>
-  <LINK srcnodeid="329" srcpinname="Y Output Value" dstnodeid="326" dstpinname="Reset">
-  </LINK>
-  <LINK srcnodeid="333" srcpinname="Output" dstnodeid="326" dstpinname="IntitialXZ">
-  </LINK>
   <LINK srcnodeid="336" srcpinname="Output String" dstnodeid="335" dstpinname="Selector">
   </LINK>
   <LINK srcnodeid="335" srcpinname="Layers Out" dstnodeid="337" dstpinname="Element">
@@ -2451,8 +2421,6 @@
   <LINK srcnodeid="350" srcpinname="Layers Out" dstnodeid="352" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="337" srcpinname="OnEvent" dstnodeid="346" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="357" srcpinname="Output" dstnodeid="328" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="346" srcpinname="Output" dstnodeid="349" dstpinname="Input 1">
   </LINK>
@@ -2474,15 +2442,11 @@
   </LINK>
   <LINK srcnodeid="367" srcpinname="OnEvent" dstnodeid="368" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="371" srcpinname="Y Output Value" dstnodeid="333" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="355" srcpinname="Y Output Value" dstnodeid="357" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="347" srcpinname="Y Output Value" dstnodeid="357" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="370" srcpinname="Output" dstnodeid="377" dstpinname="Position In">
-  </LINK>
-  <LINK srcnodeid="377" srcpinname="Position Out" dstnodeid="371" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="329" srcpinname="Y Output Value" dstnodeid="377" dstpinname="Reset">
   </LINK>
@@ -2509,8 +2473,6 @@
   <LINK srcnodeid="363" srcpinname="Output" dstnodeid="364" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="377" srcpinname="Position Out" dstnodeid="385" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="385" srcpinname="Output" dstnodeid="378" dstpinname="X">
   </LINK>
   <LINK srcnodeid="386" srcpinname="Transform Out" dstnodeid="378" dstpinname="Transform In">
   </LINK>
@@ -2539,8 +2501,6 @@
   <LINK srcnodeid="398" srcpinname="Output" dstnodeid="400" dstpinname="Position In">
   </LINK>
   <LINK srcnodeid="400" srcpinname="Position Out" dstnodeid="402" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="402" srcpinname="Output" dstnodeid="386" dstpinname="Y">
   </LINK>
   <LINK srcnodeid="329" srcpinname="Y Output Value" dstnodeid="400" dstpinname="Reset">
   </LINK>
@@ -2575,5 +2535,13 @@
   <LINK srcnodeid="415" srcpinname="Transform Out" dstnodeid="413" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="416" srcpinname="Transform Out" dstnodeid="408" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="402" srcpinname="Output" dstnodeid="417" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="417" srcpinname="Output" dstnodeid="386" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="385" srcpinname="Output" dstnodeid="418" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="418" srcpinname="Output" dstnodeid="378" dstpinname="X">
   </LINK>
   </PATCH>
