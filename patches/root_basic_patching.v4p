@@ -279,7 +279,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/a.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ a|">
   </PIN>
@@ -337,7 +337,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/c.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ c|">
   </PIN>
@@ -495,7 +495,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/d.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ d|">
   </PIN>
@@ -525,7 +525,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/e.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ e|">
   </PIN>
@@ -555,7 +555,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/f.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ f|">
   </PIN>
@@ -585,7 +585,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/j.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ j|">
   </PIN>
@@ -615,7 +615,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/m.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ m|">
   </PIN>
@@ -645,7 +645,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/n.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ n|">
   </PIN>
@@ -675,7 +675,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/o.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ o|">
   </PIN>
@@ -705,7 +705,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/p.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ p|">
   </PIN>
@@ -735,7 +735,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/q.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ q|">
   </PIN>
@@ -765,7 +765,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/r.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ r|">
   </PIN>
@@ -795,7 +795,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/s.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ s|">
   </PIN>
@@ -825,7 +825,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/t.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ t|">
   </PIN>
@@ -855,7 +855,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/fi.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ fi|">
   </PIN>
@@ -1081,7 +1081,7 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/x.png|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ x|">
   </PIN>

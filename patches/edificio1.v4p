@@ -959,7 +959,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-0.25|">
+  <PIN pinname="X" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|3.092999999999987|">
   </PIN>
@@ -992,16 +992,30 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="208" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="18000" top="7185" width="0" height="0">
+  <NODE id="210" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="18405" top="7170" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/facade/a.png|">
+  <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ Letra|">
+  </PIN>
+  </NODE>
+  <NODE id="211" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18840" top="9000" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1">
+  </PIN>
+  <PIN pinname="Saturation" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Value" visible="1" values="|0.9|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
@@ -1150,6 +1164,8 @@
   </LINK>
   <LINK srcnodeid="207" srcpinname="Texture Out" dstnodeid="201" dstpinname="Texture">
   </LINK>
-  <LINK srcnodeid="208" srcpinname="Output String" dstnodeid="207" dstpinname="Filename">
+  <LINK srcnodeid="210" srcpinname="Output String" dstnodeid="207" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="211" srcpinname="Output" dstnodeid="201" dstpinname="Ambient Color">
   </LINK>
   </PATCH>
