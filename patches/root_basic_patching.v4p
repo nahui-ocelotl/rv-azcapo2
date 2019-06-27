@@ -279,6 +279,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ a|">
   </PIN>
   </NODE>
@@ -334,6 +336,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ c|">
   </PIN>
@@ -491,6 +495,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ d|">
   </PIN>
   </NODE>
@@ -518,6 +524,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ e|">
   </PIN>
@@ -547,6 +555,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ f|">
   </PIN>
   </NODE>
@@ -574,6 +584,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ j|">
   </PIN>
@@ -603,6 +615,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ m|">
   </PIN>
   </NODE>
@@ -630,6 +644,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ n|">
   </PIN>
@@ -659,6 +675,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ o|">
   </PIN>
   </NODE>
@@ -686,6 +704,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ p|">
   </PIN>
@@ -715,6 +735,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ q|">
   </PIN>
   </NODE>
@@ -742,6 +764,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ r|">
   </PIN>
@@ -771,6 +795,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ s|">
   </PIN>
   </NODE>
@@ -799,6 +825,8 @@
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
+  <PIN pinname="_ Letra" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ t|">
   </PIN>
   </NODE>
@@ -826,6 +854,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ fi|">
   </PIN>
@@ -1050,6 +1080,8 @@
   <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ x|">
   </PIN>
@@ -1926,76 +1958,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="406" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="4005" top="18570" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Render State" visible="1">
-  </PIN>
-  <PIN pinname="Mesh" visible="1">
-  </PIN>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="Technique" visible="1">
-  </PIN>
-  <PIN pinname="VS Defines" visible="1">
-  </PIN>
-  <PIN pinname="PS Defines" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform" visible="1">
-  </PIN>
-  <PIN pinname="Texture Transform col" visible="1">
-  </PIN>
-  <PIN pinname="CamPos" visible="1">
-  </PIN>
-  <PIN pinname="refraction etaRatio" visible="1">
-  </PIN>
-  <PIN pinname="tNormal1" visible="1">
-  </PIN>
-  <PIN pinname="tCol1" visible="1">
-  </PIN>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
-  <PIN pinname="u fresnel0" visible="1">
-  </PIN>
-  <PIN pinname="u roughness" visible="1">
-  </PIN>
-  <PIN pinname="Ambient Color" visible="1">
-  </PIN>
-  <PIN pinname="u diffuseColor" visible="1">
-  </PIN>
-  <PIN pinname="u lightColor" visible="1">
-  </PIN>
-  <PIN pinname="u lightDir" visible="1">
-  </PIN>
-  <PIN pinname="NormalScale" visible="1">
-  </PIN>
-  <PIN pinname="BumpFactor" visible="1">
-  </PIN>
-  <PIN pinname="refract amount" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="407" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5160" top="17460" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="408" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5820" top="17415" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|33|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|9|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|18|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="410" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
   <BOUNDS type="Node" left="4275" top="23160" width="100" height="100">
   </BOUNDS>
@@ -2076,20 +2038,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="416" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6735" top="16635" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
-  </PIN>
-  <PIN pinname="X" visible="1" values="|2|">
-  </PIN>
-  <PIN pinname="Y" visible="1" values="|5|">
-  </PIN>
-  <PIN pinname="Z" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="417" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="10155" top="20895" width="100" height="100">
   </BOUNDS>
@@ -2110,20 +2058,6 @@
   <PIN pinname="Input 2" visible="1" values="|18.4|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="419" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7290" top="17595" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Hue" visible="1">
-  </PIN>
-  <PIN pinname="Saturation" visible="1">
-  </PIN>
-  <PIN pinname="Value" visible="1" values="|0.75|">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2594,12 +2528,6 @@
   </LINK>
   <LINK srcnodeid="405" srcpinname="Output" dstnodeid="323" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="406" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 6">
-  </LINK>
-  <LINK srcnodeid="407" srcpinname="Mesh" dstnodeid="406" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="408" srcpinname="Transform Out" dstnodeid="406" dstpinname="Transform">
-  </LINK>
   <LINK srcnodeid="378" srcpinname="Transform Out" dstnodeid="410" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Projection" dstnodeid="411" dstpinname="Input 1">
@@ -2616,8 +2544,6 @@
   </LINK>
   <LINK srcnodeid="415" srcpinname="Transform Out" dstnodeid="413" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="416" srcpinname="Transform Out" dstnodeid="408" dstpinname="Transform In">
-  </LINK>
   <LINK srcnodeid="402" srcpinname="Output" dstnodeid="417" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="417" srcpinname="Output" dstnodeid="386" dstpinname="Y">
@@ -2625,8 +2551,6 @@
   <LINK srcnodeid="385" srcpinname="Output" dstnodeid="418" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="418" srcpinname="Output" dstnodeid="378" dstpinname="X">
-  </LINK>
-  <LINK srcnodeid="419" srcpinname="Output" dstnodeid="406" dstpinname="Ambient Color">
   </LINK>
   <LINK srcnodeid="421" srcpinname="Output" dstnodeid="325" dstpinname="X">
   </LINK>
