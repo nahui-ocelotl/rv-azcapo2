@@ -1,9 +1,9 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20145" height="17880">
+  <BOUNDS type="Window" width="17175" height="29490">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
-  <BOUNDS type="Box" left="5700" top="12759" width="750" height="240">
+  <BOUNDS type="Box" left="7170" top="10959" width="750" height="240">
   </BOUNDS>
   <PIN pinname="Input Node" visible="1">
   </PIN>
@@ -1027,7 +1027,7 @@
   </PIN>
   </NODE>
   <NODE id="116" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="10605" top="16380" width="100" height="100">
+  <BOUNDS type="Node" left="8625" top="27990" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -1077,7 +1077,7 @@
   </PIN>
   </NODE>
   <NODE id="117" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7140" top="15615" width="100" height="100">
+  <BOUNDS type="Node" left="7695" top="27375" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -1087,7 +1087,7 @@
   </PIN>
   </NODE>
   <NODE id="118" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10740" top="15240" width="100" height="100">
+  <BOUNDS type="Node" left="8940" top="27270" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1101,7 +1101,7 @@
   </PIN>
   </NODE>
   <NODE id="119" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9435" top="13995" width="100" height="100">
+  <BOUNDS type="Node" left="10350" top="26640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1115,7 +1115,7 @@
   </PIN>
   </NODE>
   <NODE id="121" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8130" top="13185" width="100" height="100">
+  <BOUNDS type="Node" left="9675" top="25830" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1129,7 +1129,7 @@
   </PIN>
   </NODE>
   <NODE id="122" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11265" top="11910" width="100" height="100">
+  <BOUNDS type="Node" left="360" top="22080" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-3|">
   </PIN>
@@ -1145,7 +1145,7 @@
   </PIN>
   </NODE>
   <NODE id="123" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7515" top="11505" width="100" height="100">
+  <BOUNDS type="Node" left="300" top="16710" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -1161,7 +1161,7 @@
   </PIN>
   </NODE>
   <NODE id="124" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10980" top="13260" width="100" height="100">
+  <BOUNDS type="Node" left="165" top="11220" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|50|">
   </PIN>
@@ -1177,7 +1177,7 @@
   </PIN>
   </NODE>
   <NODE id="126" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12750" top="15435" width="100" height="100">
+  <BOUNDS type="Node" left="12255" top="27300" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Hue" visible="1">
   </PIN>
@@ -1191,55 +1191,79 @@
   </PIN>
   </NODE>
   <NODE id="127" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8055" top="12270" width="100" height="100">
+  <BOUNDS type="Node" left="840" top="17475" width="2685" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Rotate Y|">
   </PIN>
   </NODE>
   <NODE id="128" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10020" top="12120" width="100" height="100">
+  <BOUNDS type="Node" left="930" top="19005" width="2565" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Translate X|">
   </PIN>
   </NODE>
   <NODE id="129" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12015" top="12495" width="100" height="100">
+  <BOUNDS type="Node" left="735" top="22680" width="2730" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Translate Z|">
   </PIN>
   </NODE>
   <NODE id="130" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11310" top="14325" width="100" height="100">
+  <BOUNDS type="Node" left="645" top="11895" width="2895" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Scale X|">
   </PIN>
   </NODE>
   <NODE id="135" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13140" top="13380" width="600" height="100">
+  <BOUNDS type="Node" left="375" top="23940" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -1255,19 +1279,25 @@
   </PIN>
   </NODE>
   <NODE id="136" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13860" top="14235" width="100" height="100">
+  <BOUNDS type="Node" left="945" top="24675" width="3615" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Color|">
   </PIN>
   </NODE>
   <NODE id="140" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9645" top="11295" width="100" height="100">
+  <BOUNDS type="Node" left="285" top="18270" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -1282,56 +1312,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="|paredes|">
   </PIN>
   </NODE>
-  <NODE id="144" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7860" top="14640" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Switch" visible="1">
-  </PIN>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="145" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6540" top="14385" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="[ From .." visible="1">
-  </PIN>
-  <PIN pinname=".. To [" visible="1" values="|4|">
-  </PIN>
-  <PIN pinname="Phase" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="146" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6105" top="15285" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="147" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7200" top="13560" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="148" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8580" top="11430" width="100" height="100">
+  <BOUNDS type="Node" left="1380" top="16740" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -1343,75 +1325,75 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="149" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10755" top="11205" width="100" height="100">
+  <BOUNDS type="Node" left="1410" top="18240" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-0.6|">
+  <PIN pinname="Input 2" visible="1" values="|-0.79|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|0.6|">
+  <PIN pinname="Input 3" visible="1" values="|0.79|">
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="150" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12675" top="11760" width="100" height="100">
+  <BOUNDS type="Node" left="1275" top="22035" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|-3|">
+  <PIN pinname="Input 1" visible="1" values="|-4|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-25|">
+  <PIN pinname="Input 2" visible="1" values="|-26|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|-25|">
+  <PIN pinname="Input 3" visible="1" values="|-26|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|4|">
+  <PIN pinname="Input 4" visible="1" values="|5|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="151" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12090" top="13380" width="100" height="100">
+  <BOUNDS type="Node" left="1305" top="11220" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|50|">
+  <PIN pinname="Input 1" visible="1" values="|52|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|7|">
+  <PIN pinname="Input 2" visible="1" values="|9|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|7|">
+  <PIN pinname="Input 3" visible="1" values="|9|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|50|">
+  <PIN pinname="Input 4" visible="1" values="|53|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="152" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14370" top="13380" width="600" height="100">
+  <BOUNDS type="Node" left="1440" top="23940" width="600" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0.2|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0.2|">
+  <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|0.2|">
+  <PIN pinname="Input 3" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|0.2|">
+  <PIN pinname="Input 4" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="153" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15300" top="14550" width="600" height="100">
+  <BOUNDS type="Node" left="165" top="12735" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|9|">
   </PIN>
@@ -1427,19 +1409,25 @@
   </PIN>
   </NODE>
   <NODE id="154" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16020" top="15405" width="100" height="100">
+  <BOUNDS type="Node" left="720" top="13410" width="2805" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Scale Y|">
   </PIN>
   </NODE>
   <NODE id="155" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16350" top="14370" width="600" height="100">
+  <BOUNDS type="Node" left="1050" top="12735" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|1|">
   </PIN>
@@ -1451,11 +1439,11 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
   </PIN>
   </NODE>
   <NODE id="156" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13860" top="11685" width="600" height="100">
+  <BOUNDS type="Node" left="360" top="20085" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|4|">
   </PIN>
@@ -1471,19 +1459,57 @@
   </PIN>
   </NODE>
   <NODE id="157" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14580" top="12540" width="100" height="100">
+  <BOUNDS type="Node" left="825" top="20820" width="2625" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Translate Y|">
   </PIN>
   </NODE>
   <NODE id="158" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14910" top="11505" width="600" height="100">
+  <BOUNDS type="Node" left="1380" top="20055" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.51|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
+  </PIN>
+  </NODE>
+  <NODE id="159" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2385" top="23895" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="164" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1995" top="12750" width="600" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|1|">
   </PIN>
@@ -1495,7 +1521,409 @@
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|piso|">
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="165" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2250" top="11235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|53|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="166" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3375" top="11145" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|53|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="167" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3120" top="12705" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="168" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3225" top="16635" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-0.25|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="169" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3225" top="18120" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-0.79|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.79|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="170" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3195" top="19995" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="171" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3270" top="21915" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|-4|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="172" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3405" top="23880" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="173" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="240" top="14490" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|paredes|">
+  </PIN>
+  </NODE>
+  <NODE id="174" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="945" top="15615" width="2685" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input 5" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Rotate X|">
+  </PIN>
+  </NODE>
+  <NODE id="175" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1485" top="14880" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso1|">
+  </PIN>
+  </NODE>
+  <NODE id="177" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3345" top="14835" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso3|">
+  </PIN>
+  </NODE>
+  <NODE id="178" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2295" top="21930" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|-4|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-26|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="179" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2280" top="20040" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|4.5|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|4.5|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|4.5|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|4.5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="180" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2340" top="18180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-0.79|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.79|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="181" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2295" top="16590" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-0.25|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="182" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2430" top="14805" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso2|">
+  </PIN>
+  </NODE>
+  <NODE id="183" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4410" top="23820" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="184" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4350" top="22020" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-4|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|-5|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|-9|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="185" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4335" top="19905" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0.6|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.6|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.6|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0.6|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="186" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4245" top="18105" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="187" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4200" top="16590" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="188" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4260" top="14835" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="189" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4020" top="12660" width="600" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|9|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
+  </PIN>
+  </NODE>
+  <NODE id="190" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4335" top="11085" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|52|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|piso4|">
   </PIN>
   </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
@@ -1678,16 +2106,6 @@
   </LINK>
   <LINK srcnodeid="140" srcpinname="Output" dstnodeid="128" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="124" srcpinname="Output" dstnodeid="144" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="144" srcpinname="Output" dstnodeid="130" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="145" srcpinname="Output" dstnodeid="146" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="146" srcpinname="Output" dstnodeid="144" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="147" srcpinname="Y Output Value" dstnodeid="144" dstpinname="Switch">
-  </LINK>
   <LINK srcnodeid="148" srcpinname="Output" dstnodeid="127" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="149" srcpinname="Output" dstnodeid="128" dstpinname="Input 2">
@@ -1709,5 +2127,65 @@
   <LINK srcnodeid="158" srcpinname="Output" dstnodeid="157" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="157" srcpinname="Output" dstnodeid="119" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Output" dstnodeid="130" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="159" srcpinname="Output" dstnodeid="136" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="164" srcpinname="Output" dstnodeid="154" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="165" srcpinname="Output" dstnodeid="130" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="130" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="167" srcpinname="Output" dstnodeid="154" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="168" srcpinname="Output" dstnodeid="127" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="169" srcpinname="Output" dstnodeid="128" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="170" srcpinname="Output" dstnodeid="157" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="171" srcpinname="Output" dstnodeid="129" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="172" srcpinname="Output" dstnodeid="136" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="173" srcpinname="Output" dstnodeid="174" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="175" srcpinname="Output" dstnodeid="174" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="177" srcpinname="Output" dstnodeid="174" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="174" srcpinname="Output" dstnodeid="121" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="178" srcpinname="Output" dstnodeid="129" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="179" srcpinname="Output" dstnodeid="157" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="180" srcpinname="Output" dstnodeid="128" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="181" srcpinname="Output" dstnodeid="127" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="182" srcpinname="Output" dstnodeid="174" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="183" srcpinname="Output" dstnodeid="136" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="184" srcpinname="Output" dstnodeid="129" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="185" srcpinname="Output" dstnodeid="157" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="186" srcpinname="Output" dstnodeid="128" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="187" srcpinname="Output" dstnodeid="127" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="188" srcpinname="Output" dstnodeid="174" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="189" srcpinname="Output" dstnodeid="154" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="190" srcpinname="Output" dstnodeid="130" dstpinname="Input 5">
+  </LINK>
+  <LINK srcnodeid="105" srcpinname="Y Output Value" dstnodeid="116" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="51" srcpinname="Output Node" dstnodeid="116" dstpinname="tNormal1">
   </LINK>
   </PATCH>
