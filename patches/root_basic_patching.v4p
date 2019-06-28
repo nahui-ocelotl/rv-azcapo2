@@ -1059,7 +1059,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/h.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ h|">
   </PIN>
   </NODE>
   <NODE id="279" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
@@ -1133,7 +1135,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/i.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ i|">
   </PIN>
   </NODE>
   <NODE id="284" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1159,7 +1163,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/i.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ j|">
   </PIN>
   </NODE>
   <NODE id="286" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1279,7 +1285,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/dcultural.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ dcultural|">
   </PIN>
   </NODE>
   <NODE id="297" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
