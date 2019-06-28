@@ -1191,7 +1191,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/l.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ l|">
   </PIN>
   </NODE>
   <NODE id="289" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1233,7 +1235,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/u.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ u|">
   </PIN>
   </NODE>
   <NODE id="292" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1259,7 +1263,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/w.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ w|">
   </PIN>
   </NODE>
   <NODE id="295" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1417,7 +1423,7 @@
   </PIN>
   </NODE>
   <NODE id="329" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="14355" top="19050" width="0" height="0">
+  <BOUNDS type="Box" left="14340" top="19035" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
