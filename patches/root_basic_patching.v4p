@@ -883,7 +883,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/b.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_b|">
   </PIN>
   </NODE>
   <NODE id="264" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
@@ -945,7 +947,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/g.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ g|">
   </PIN>
   </NODE>
   <NODE id="268" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -971,7 +975,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/k.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ k|">
   </PIN>
   </NODE>
   <NODE id="270" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
@@ -1025,7 +1031,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/pec1.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ pec1|">
   </PIN>
   </NODE>
   <NODE id="277" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
@@ -1037,7 +1045,9 @@
   </PIN>
   <PIN pinname="camPos" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/pec2.png|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ pec2|">
   </PIN>
   </NODE>
   <NODE id="278" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
