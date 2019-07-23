@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20145" height="31350">
+  <BOUNDS type="Window" width="19650" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -2377,7 +2377,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|6.5|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|11|">
+  <PIN pinname="Input 5" visible="1" values="|17|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2413,7 +2413,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|11|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|2|">
+  <PIN pinname="Input 5" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2439,7 +2439,7 @@
   </PIN>
   </NODE>
   <NODE id="458" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17880" top="12135" width="100" height="100">
+  <BOUNDS type="Node" left="17625" top="11835" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|40|">
   </PIN>
@@ -2849,7 +2849,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
+  <PIN pinname="Input 5" visible="1" values="||">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
