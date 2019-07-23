@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="15885" height="31350">
+  <BOUNDS type="Window" width="20145" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -469,7 +469,7 @@
   <NODE id="235" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="17880" top="4035" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -2367,15 +2367,15 @@
   </PIN>
   </NODE>
   <NODE id="454" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17520" top="10335" width="780" height="100">
+  <BOUNDS type="Node" left="17100" top="9675" width="780" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|5|">
+  <PIN pinname="Input 1" visible="1" values="|6.5|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|5|">
+  <PIN pinname="Input 2" visible="1" values="|6.5|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|5|">
+  <PIN pinname="Input 3" visible="1" values="|6.5|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|5|">
+  <PIN pinname="Input 4" visible="1" values="|6.5|">
   </PIN>
   <PIN pinname="Input 5" visible="1" values="|11|">
   </PIN>
@@ -2403,13 +2403,13 @@
   </PIN>
   </NODE>
   <NODE id="456" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="18510" top="10785" width="100" height="100">
+  <BOUNDS type="Node" left="18285" top="9705" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|-8.739999999999995|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|2|">
+  <PIN pinname="Input 2" visible="1" values="|1.23|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|1|">
+  <PIN pinname="Input 3" visible="1" values="|1.2300000000000006|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|11|">
   </PIN>
@@ -2421,7 +2421,7 @@
   </PIN>
   </NODE>
   <NODE id="457" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16680" top="11460" width="100" height="100">
+  <BOUNDS type="Node" left="16665" top="11280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
@@ -2443,9 +2443,9 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|40|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|21.479999999999997|">
+  <PIN pinname="Input 2" visible="1" values="|20|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|19.5|">
+  <PIN pinname="Input 3" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|40|">
   </PIN>
@@ -2457,7 +2457,7 @@
   </PIN>
   </NODE>
   <NODE id="459" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17400" top="9735" width="100" height="100">
+  <BOUNDS type="Node" left="16035" top="9795" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|3|">
   </PIN>
@@ -2841,15 +2841,15 @@
   <NODE id="487" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="20220" top="11115" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/ladoaudiovisual2.jpg|">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="||">
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/ladoaudiovisual2.jpg|">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|tex/facade/ladoaudiovisual.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="||">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="||">
+  <PIN pinname="Input 5" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
