@@ -2982,30 +2982,44 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="495" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12780" top="8010" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Hue" visible="1">
-  </PIN>
-  <PIN pinname="Saturation" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Value" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Alpha" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="496" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="11340" top="7785" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|10|">
+  <PIN pinname="X" visible="1" values="|51|">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|10|">
+  <PIN pinname="Y" visible="1" values="|0.5|">
   </PIN>
-  <PIN pinname="Z" visible="1">
+  <PIN pinname="Z" visible="1" values="|8|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="497" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10650" top="7185" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-44|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|4.7|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|-15.170000000000003|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="498" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12810" top="7455" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1" values="|0.55|">
+  </PIN>
+  <PIN pinname="Saturation" visible="1" values="|0.5900000000000001|">
+  </PIN>
+  <PIN pinname="Value" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3534,14 +3548,18 @@
   </LINK>
   <LINK srcnodeid="492" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
   </LINK>
-  <LINK srcnodeid="493" srcpinname="Layer" dstnodeid="492" dstpinname="Layer 2">
-  </LINK>
   <LINK srcnodeid="494" srcpinname="Mesh" dstnodeid="493" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="495" srcpinname="Output" dstnodeid="493" dstpinname="Ambient Color">
   </LINK>
   <LINK srcnodeid="496" srcpinname="Transform Out" dstnodeid="493" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="493" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="493" srcpinname="Layer" dstnodeid="492" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="497" srcpinname="Transform Out" dstnodeid="496" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="488" srcpinname="Transform Out" dstnodeid="497" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="498" srcpinname="Output" dstnodeid="493" dstpinname="Ambient Color">
   </LINK>
   </PATCH>
