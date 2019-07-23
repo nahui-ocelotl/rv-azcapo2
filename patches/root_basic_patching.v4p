@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19650" height="31350">
+  <BOUNDS type="Window" width="20145" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -2377,7 +2377,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|6.5|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|17|">
+  <PIN pinname="Input 5" visible="1" values="|11|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2413,7 +2413,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|11|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|4|">
+  <PIN pinname="Input 5" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2439,7 +2439,7 @@
   </PIN>
   </NODE>
   <NODE id="458" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17625" top="11835" width="100" height="100">
+  <BOUNDS type="Node" left="17880" top="12135" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|40|">
   </PIN>
@@ -2587,7 +2587,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|2|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|5|">
+  <PIN pinname="Input 5" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2623,7 +2623,7 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|11|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|2|">
+  <PIN pinname="Input 5" visible="1" values="|10|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2671,13 +2671,13 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-15|">
+  <PIN pinname="Input 2" visible="1" values="|-17|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|21|">
+  <PIN pinname="Input 3" visible="1" values="|23|">
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|3|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|3|">
+  <PIN pinname="Input 5" visible="1" values="|5|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -2685,21 +2685,21 @@
   </PIN>
   </NODE>
   <NODE id="476" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9480" top="8205" width="100" height="100">
+  <BOUNDS type="Node" left="9180" top="8625" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-43|">
+  <PIN pinname="X" visible="1" values="|-40|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1">
+  <PIN pinname="Z" visible="1" values="|-38|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="478" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10455" top="7470" width="100" height="100">
+  <BOUNDS type="Node" left="8835" top="7980" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2849,9 +2849,65 @@
   </PIN>
   <PIN pinname="Input 4" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="||">
+  <PIN pinname="Input 5" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="488" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8370" top="7395" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0.055|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="489" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11460" top="11235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/icampa2.jpg|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/campa2.jpg|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|tex/facade/campa2.jpg|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/ixpan2.jpg|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="490" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11775" top="11925" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="491" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12600" top="10620" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1">
+  </PIN>
+  <PIN pinname="Saturation" visible="1">
+  </PIN>
+  <PIN pinname="Value" visible="1">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3369,5 +3425,13 @@
   <LINK srcnodeid="486" srcpinname="Texture Out" dstnodeid="448" dstpinname="tCol1">
   </LINK>
   <LINK srcnodeid="487" srcpinname="Output" dstnodeid="486" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="488" srcpinname="Transform Out" dstnodeid="478" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="489" srcpinname="Output" dstnodeid="490" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="490" srcpinname="Texture Out" dstnodeid="460" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="491" srcpinname="Output" dstnodeid="460" dstpinname="Ambient Color">
   </LINK>
   </PATCH>
