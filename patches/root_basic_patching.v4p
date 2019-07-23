@@ -123,7 +123,7 @@
   </PIN>
   </NODE>
   <NODE id="59" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13650" top="8400" width="100" height="100">
+  <BOUNDS type="Node" left="15195" top="8175" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1" values="|2|">
   </PIN>
@@ -2017,7 +2017,7 @@
   </PIN>
   </NODE>
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="3225" top="22095" width="0" height="0">
+  <BOUNDS type="Box" left="3225" top="22080" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
@@ -2689,11 +2689,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-40|">
+  <PIN pinname="X" visible="1" values="|-39.2|">
   </PIN>
   <PIN pinname="Y" visible="1">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|-38|">
+  <PIN pinname="Z" visible="1" values="|-42|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2863,7 +2863,7 @@
   </PIN>
   <PIN pinname="X" visible="1">
   </PIN>
-  <PIN pinname="Y" visible="1" values="|0.055|">
+  <PIN pinname="Y" visible="1" values="|0.06|">
   </PIN>
   <PIN pinname="Z" visible="1">
   </PIN>
@@ -2908,6 +2908,104 @@
   <PIN pinname="Value" visible="1">
   </PIN>
   <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="492" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12555" top="13305" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="493" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="10965" top="9015" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform col" visible="1">
+  </PIN>
+  <PIN pinname="CamPos" visible="1">
+  </PIN>
+  <PIN pinname="refraction etaRatio" visible="1">
+  </PIN>
+  <PIN pinname="tNormal1" visible="1">
+  </PIN>
+  <PIN pinname="tCol1" visible="1">
+  </PIN>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="u fresnel0" visible="1">
+  </PIN>
+  <PIN pinname="u roughness" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1">
+  </PIN>
+  <PIN pinname="u diffuseColor" visible="1">
+  </PIN>
+  <PIN pinname="u lightColor" visible="1">
+  </PIN>
+  <PIN pinname="u lightDir" visible="1">
+  </PIN>
+  <PIN pinname="NormalScale" visible="1">
+  </PIN>
+  <PIN pinname="BumpFactor" visible="1">
+  </PIN>
+  <PIN pinname="refract amount" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="494" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10545" top="7755" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="495" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12780" top="8010" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1">
+  </PIN>
+  <PIN pinname="Saturation" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Value" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="496" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11340" top="7785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3384,8 +3482,6 @@
   </LINK>
   <LINK srcnodeid="459" srcpinname="Output" dstnodeid="453" dstpinname="X">
   </LINK>
-  <LINK srcnodeid="460" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
-  </LINK>
   <LINK srcnodeid="468" srcpinname="Transform Out" dstnodeid="467" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="474" srcpinname="Output" dstnodeid="467" dstpinname="X">
@@ -3433,5 +3529,19 @@
   <LINK srcnodeid="490" srcpinname="Texture Out" dstnodeid="460" dstpinname="tCol1">
   </LINK>
   <LINK srcnodeid="491" srcpinname="Output" dstnodeid="460" dstpinname="Ambient Color">
+  </LINK>
+  <LINK srcnodeid="460" srcpinname="Layer" dstnodeid="492" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="492" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
+  </LINK>
+  <LINK srcnodeid="493" srcpinname="Layer" dstnodeid="492" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="494" srcpinname="Mesh" dstnodeid="493" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="495" srcpinname="Output" dstnodeid="493" dstpinname="Ambient Color">
+  </LINK>
+  <LINK srcnodeid="496" srcpinname="Transform Out" dstnodeid="493" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="493" dstpinname="CamPos">
   </LINK>
   </PATCH>
