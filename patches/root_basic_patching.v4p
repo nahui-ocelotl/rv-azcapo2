@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16380" height="31350">
+  <BOUNDS type="Window" width="15885" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -2841,7 +2841,7 @@
   <NODE id="487" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="20220" top="11115" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="||">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/ladoaudiovisual2.jpg|">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="||">
   </PIN>
