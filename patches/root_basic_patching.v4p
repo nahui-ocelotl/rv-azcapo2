@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19650" height="31350">
+  <BOUNDS type="Window" width="19155" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
@@ -2019,7 +2019,7 @@
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="3225" top="22065" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  <PIN pinname="Y Input Value" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -2713,7 +2713,7 @@
   </PIN>
   </NODE>
   <NODE id="479" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
-  <BOUNDS type="Node" left="7635" top="15270" width="100" height="100">
+  <BOUNDS type="Node" left="8010" top="16425" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -2759,11 +2759,11 @@
   </PIN>
   <PIN pinname="refract amount" visible="1">
   </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ explanada|">
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="480" nodename="Grid (EX9.Geometry)" systemname="Grid (EX9.Geometry)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8160" top="14565" width="100" height="100">
+  <BOUNDS type="Node" left="7725" top="15645" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Resolution X" visible="1">
   </PIN>
@@ -2773,7 +2773,7 @@
   </PIN>
   </NODE>
   <NODE id="481" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9090" top="14595" width="100" height="100">
+  <BOUNDS type="Node" left="8460" top="15855" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2787,7 +2787,7 @@
   </PIN>
   </NODE>
   <NODE id="482" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9255" top="14010" width="100" height="100">
+  <BOUNDS type="Node" left="8610" top="15285" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -2795,13 +2795,13 @@
   </PIN>
   <PIN pinname="Y" visible="1" values="|-22|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|6|">
+  <PIN pinname="Z" visible="1" values="|10|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="483" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9255" top="13365" width="100" height="100">
+  <BOUNDS type="Node" left="8625" top="14625" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -3008,6 +3008,104 @@
   <PIN pinname="Value" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="499" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9360" top="17340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ explanada|">
+  </PIN>
+  </NODE>
+  <NODE id="500" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
+  <BOUNDS type="Node" left="10050" top="15390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Mesh" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Technique" visible="1">
+  </PIN>
+  <PIN pinname="VS Defines" visible="1">
+  </PIN>
+  <PIN pinname="PS Defines" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform" visible="1">
+  </PIN>
+  <PIN pinname="Texture Transform col" visible="1">
+  </PIN>
+  <PIN pinname="CamPos" visible="1">
+  </PIN>
+  <PIN pinname="refraction etaRatio" visible="1">
+  </PIN>
+  <PIN pinname="tNormal1" visible="1">
+  </PIN>
+  <PIN pinname="tCol1" visible="1">
+  </PIN>
+  <PIN pinname="EnvironmentMap" visible="1">
+  </PIN>
+  <PIN pinname="u fresnel0" visible="1">
+  </PIN>
+  <PIN pinname="u roughness" visible="1">
+  </PIN>
+  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
+  </PIN>
+  <PIN pinname="u diffuseColor" visible="1">
+  </PIN>
+  <PIN pinname="u lightColor" visible="1">
+  </PIN>
+  <PIN pinname="u lightDir" visible="1">
+  </PIN>
+  <PIN pinname="NormalScale" visible="1">
+  </PIN>
+  <PIN pinname="BumpFactor" visible="1">
+  </PIN>
+  <PIN pinname="refract amount" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="501" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10080" top="14010" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="503" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10890" top="14625" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="504" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10695" top="13950" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|20|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3508,8 +3606,6 @@
   </LINK>
   <LINK srcnodeid="478" srcpinname="Transform Out" dstnodeid="476" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="479" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 19">
-  </LINK>
   <LINK srcnodeid="480" srcpinname="Mesh" dstnodeid="479" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="481" srcpinname="Transform Out" dstnodeid="479" dstpinname="Transform">
@@ -3549,5 +3645,19 @@
   <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="479" dstpinname="CamPos">
   </LINK>
   <LINK srcnodeid="483" srcpinname="Transform Out" dstnodeid="482" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="479" srcpinname="Layer" dstnodeid="499" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="500" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="500" srcpinname="Layer" dstnodeid="499" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="501" srcpinname="Mesh" dstnodeid="500" dstpinname="Mesh">
+  </LINK>
+  <LINK srcnodeid="503" srcpinname="Transform Out" dstnodeid="500" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="504" srcpinname="Transform Out" dstnodeid="503" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="499" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 19">
   </LINK>
   </PATCH>
