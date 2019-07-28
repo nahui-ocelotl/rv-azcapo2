@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="17670" height="17265">
+  <BOUNDS type="Window" width="16680" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="8805" top="13389" width="750" height="240">
@@ -154,14 +154,6 @@
   <PIN pinname="Layer Template Count" visible="0" values="|6|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="51" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
-  <BOUNDS type="Box" left="8430" top="3060" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input Node" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|EnvironmentMap|">
   </PIN>
   </NODE>
   <NODE id="52" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
@@ -872,16 +864,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="101" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7710" top="885" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|camPos|">
-  </PIN>
-  </NODE>
   <NODE id="102" nodename="GouraudDirectional (EX9.Effect)" systemname="GouraudDirectional (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/GouraudDirectional.fx" componentmode="Hidden">
   <BOUNDS type="Node" left="16485" top="11355" width="100" height="100">
   </BOUNDS>
@@ -1018,6 +1000,38 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="111" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9060" top="660" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="112" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8550" top="2145" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Cube Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="113" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="7350" top="1425" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="45" srcpinname="Mesh" dstnodeid="42" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
@@ -1033,8 +1047,6 @@
   <LINK srcnodeid="42" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="31" dstpinname="Input Node">
-  </LINK>
-  <LINK srcnodeid="51" srcpinname="Output Node" dstnodeid="42" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="52" dstpinname="Transform">
   </LINK>
@@ -1136,22 +1148,6 @@
   </LINK>
   <LINK srcnodeid="95" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 5">
   </LINK>
-  <LINK srcnodeid="51" srcpinname="Output Node" dstnodeid="82" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="51" srcpinname="Output Node" dstnodeid="87" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="51" srcpinname="Output Node" dstnodeid="95" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="101" srcpinname="Y Output Value" dstnodeid="42" dstpinname="CamPos">
-  </LINK>
-  <LINK srcnodeid="101" srcpinname="Y Output Value" dstnodeid="52" dstpinname="CamPos">
-  </LINK>
-  <LINK srcnodeid="101" srcpinname="Y Output Value" dstnodeid="82" dstpinname="CamPos">
-  </LINK>
-  <LINK srcnodeid="101" srcpinname="Y Output Value" dstnodeid="87" dstpinname="CamPos">
-  </LINK>
-  <LINK srcnodeid="101" srcpinname="Y Output Value" dstnodeid="95" dstpinname="CamPos">
-  </LINK>
   <LINK srcnodeid="103" srcpinname="Mesh" dstnodeid="102" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="106" srcpinname="Transform Out" dstnodeid="102" dstpinname="Transform">
@@ -1171,5 +1167,25 @@
   <LINK srcnodeid="102" srcpinname="Layer" dstnodeid="50" dstpinname="Layer 6">
   </LINK>
   <LINK srcnodeid="78" srcpinname="Output Node" dstnodeid="104" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Output" dstnodeid="42" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Output" dstnodeid="82" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Output" dstnodeid="87" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Output" dstnodeid="95" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="111" srcpinname="Output" dstnodeid="52" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="113" srcpinname="Output String" dstnodeid="112" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="42" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="87" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="82" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="95" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>

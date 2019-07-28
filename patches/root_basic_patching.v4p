@@ -1,9 +1,9 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18165" height="31350">
+  <BOUNDS type="Window" width="20235" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3060" top="1410" width="100" height="100">
+  <BOUNDS type="Node" left="2745" top="18630" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -15,7 +15,7 @@
   </PIN>
   </NODE>
   <NODE id="47" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1860" top="690" width="0" height="0">
+  <BOUNDS type="Box" left="2625" top="17985" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
@@ -247,7 +247,7 @@
   </PIN>
   </NODE>
   <NODE id="195" nodename="./Camera_Touch.v4p" systemname="./Camera_Touch" filename="./Camera_Touch.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5460" top="14835" width="100" height="100">
+  <BOUNDS type="Node" left="1380" top="22635" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Initial Distance" visible="1" values="|30|">
   </PIN>
@@ -271,11 +271,7 @@
   <NODE id="222" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="525" top="2880" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -335,11 +331,7 @@
   <NODE id="224" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2040" top="2835" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -493,11 +485,7 @@
   <NODE id="237" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3510" top="2790" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -523,11 +511,7 @@
   <NODE id="239" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="4965" top="2760" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -553,11 +537,7 @@
   <NODE id="241" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="585" top="4230" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -583,11 +563,7 @@
   <NODE id="243" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2130" top="4230" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -613,11 +589,7 @@
   <NODE id="245" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3570" top="4215" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -643,11 +615,7 @@
   <NODE id="247" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="4980" top="4125" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -673,11 +641,7 @@
   <NODE id="249" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="615" top="5625" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -703,11 +667,7 @@
   <NODE id="251" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2220" top="5550" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -733,11 +693,7 @@
   <NODE id="253" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3585" top="5520" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -763,11 +719,7 @@
   <NODE id="255" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="5010" top="5490" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -793,11 +745,7 @@
   <NODE id="257" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="645" top="6810" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -823,11 +771,7 @@
   <NODE id="259" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="2205" top="6735" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -853,11 +797,7 @@
   <NODE id="261" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="5040" top="6705" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -883,11 +823,7 @@
   <NODE id="263" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="6915" top="2715" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/b.png|">
   </PIN>
@@ -947,11 +883,7 @@
   <NODE id="267" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="8340" top="2715" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/g.png|">
   </PIN>
@@ -975,11 +907,7 @@
   <NODE id="269" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="6930" top="3975" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/k.png|">
   </PIN>
@@ -1031,11 +959,7 @@
   <NODE id="276" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="8385" top="4005" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/pec1.png|">
   </PIN>
@@ -1045,11 +969,7 @@
   <NODE id="277" nodename="edificio2.v4p" systemname="edificio2" filename="edificio2.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="6930" top="5340" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/pec2.png|">
   </PIN>
@@ -1059,11 +979,7 @@
   <NODE id="278" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="8445" top="5235" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/h.png|">
   </PIN>
@@ -1091,11 +1007,7 @@
   <NODE id="280" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3630" top="6660" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -1135,11 +1047,7 @@
   <NODE id="283" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="6960" top="6570" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/i.png|">
   </PIN>
@@ -1163,11 +1071,7 @@
   <NODE id="285" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="8535" top="6570" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/i.png|">
   </PIN>
@@ -1191,11 +1095,7 @@
   <NODE id="287" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="3540" top="8640" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/l.png|">
   </PIN>
@@ -1235,11 +1135,7 @@
   <NODE id="291" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="5145" top="8625" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/u.png|">
   </PIN>
@@ -1263,11 +1159,7 @@
   <NODE id="294" nodename="edificio4.v4p" systemname="edificio4" filename="edificio4.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="6780" top="8550" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/w.png|">
   </PIN>
@@ -1291,11 +1183,7 @@
   <NODE id="296" nodename="edificio3.v4p" systemname="edificio3" filename="edificio3.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="10005" top="6570" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="EnvironmentMap" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="camPos" visible="1">
   </PIN>
   <PIN pinname="_ Letra" visible="1" values="|tex/facade/dcultural.png|">
   </PIN>
@@ -2791,11 +2679,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-40|">
+  <PIN pinname="X" visible="1" values="|-41|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|-22|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|10|">
+  <PIN pinname="Z" visible="1" values="|8|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -3110,6 +2998,100 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="505" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12585" top="13980" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="506" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="945" top="23265" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="508" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12330" top="8220" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="509" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17910" top="8145" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="510" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17970" top="11385" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="511" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9765" top="11250" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="512" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11865" top="14145" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="513" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9750" top="15810" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|Camera Position|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="514" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16560" top="5055" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Type" visible="1" values="|Cube Texture|">
+  </PIN>
+  <PIN pinname="Apply" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="515" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="15360" top="4335" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -3117,8 +3099,6 @@
   <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="50" dstpinname="skybox">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Mesh" dstnodeid="58" dstpinname="Mesh">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="65" srcpinname="Output String" dstnodeid="64" dstpinname="Filename">
   </LINK>
@@ -3132,21 +3112,15 @@
   </LINK>
   <LINK srcnodeid="69" srcpinname="Y Output Value" dstnodeid="68" dstpinname="Z">
   </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="58" dstpinname="CamPos">
-  </LINK>
   <LINK srcnodeid="195" srcpinname="ResolutionX" dstnodeid="188" dstpinname="Backbuffer Width">
   </LINK>
   <LINK srcnodeid="195" srcpinname="ResolutionY" dstnodeid="188" dstpinname="Backbuffer Height">
   </LINK>
   <LINK srcnodeid="47" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="222" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="222" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="224" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="224" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="225" srcpinname="Transform Out" dstnodeid="222" dstpinname="Transform">
   </LINK>
@@ -3184,29 +3158,19 @@
   </LINK>
   <LINK srcnodeid="237" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 3">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="237" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="240" srcpinname="Transform Out" dstnodeid="239" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="239" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="239" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 4">
   </LINK>
   <LINK srcnodeid="242" srcpinname="Transform Out" dstnodeid="241" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="241" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="241" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="244" srcpinname="Transform Out" dstnodeid="243" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="243" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="243" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 6">
   </LINK>
   <LINK srcnodeid="246" srcpinname="Transform Out" dstnodeid="245" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="245" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="245" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 7">
   </LINK>
@@ -3214,19 +3178,13 @@
   </LINK>
   <LINK srcnodeid="247" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 8">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="247" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="250" srcpinname="Transform Out" dstnodeid="249" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="249" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="249" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 9">
   </LINK>
   <LINK srcnodeid="252" srcpinname="Transform Out" dstnodeid="251" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="251" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 10">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="251" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="254" srcpinname="Transform Out" dstnodeid="253" dstpinname="Transform">
   </LINK>
@@ -3235,8 +3193,6 @@
   <LINK srcnodeid="256" srcpinname="Transform Out" dstnodeid="255" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="255" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 12">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="255" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="258" srcpinname="Transform Out" dstnodeid="257" dstpinname="Transform">
   </LINK>
@@ -3248,14 +3204,6 @@
   </LINK>
   <LINK srcnodeid="262" srcpinname="Transform Out" dstnodeid="261" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="261" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="259" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="257" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="253" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="263" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="223" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 1">
@@ -3266,23 +3214,13 @@
   </LINK>
   <LINK srcnodeid="266" srcpinname="Transform Out" dstnodeid="263" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="263" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="268" srcpinname="Transform Out" dstnodeid="267" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="267" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="267" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="270" srcpinname="Transform Out" dstnodeid="269" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="269" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="269" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 3">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="277" dstpinname="EnvironmentMap">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="276" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="276" srcpinname="Layer" dstnodeid="264" dstpinname="Layer 4">
   </LINK>
@@ -3296,11 +3234,7 @@
   </LINK>
   <LINK srcnodeid="281" srcpinname="Transform Out" dstnodeid="280" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="280" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="280" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 15">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="278" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="282" srcpinname="Transform Out" dstnodeid="278" dstpinname="Transform">
   </LINK>
@@ -3312,11 +3246,7 @@
   </LINK>
   <LINK srcnodeid="283" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 2">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="283" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="286" srcpinname="Transform Out" dstnodeid="285" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="285" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="285" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 3">
   </LINK>
@@ -3324,13 +3254,9 @@
   </LINK>
   <LINK srcnodeid="287" srcpinname="Layer" dstnodeid="290" dstpinname="Layer 1">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="287" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 4">
   </LINK>
   <LINK srcnodeid="292" srcpinname="Transform Out" dstnodeid="291" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="291" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="291" srcpinname="Layer" dstnodeid="290" dstpinname="Layer 2">
   </LINK>
@@ -3338,13 +3264,9 @@
   </LINK>
   <LINK srcnodeid="294" srcpinname="Layer" dstnodeid="290" dstpinname="Layer 3">
   </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="294" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="297" srcpinname="Transform Out" dstnodeid="296" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="296" srcpinname="Layer" dstnodeid="279" dstpinname="Layer 4">
-  </LINK>
-  <LINK srcnodeid="46" srcpinname="Texture Out" dstnodeid="296" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="319" srcpinname="Mesh" dstnodeid="318" dstpinname="Mesh">
   </LINK>
@@ -3357,62 +3279,6 @@
   <LINK srcnodeid="323" srcpinname="Texture Out" dstnodeid="318" dstpinname="Texture">
   </LINK>
   <LINK srcnodeid="325" srcpinname="Transform Out" dstnodeid="318" dstpinname="Texture Transform">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="222" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="224" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="237" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="239" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="241" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="243" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="245" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="247" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="249" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="251" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="253" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="255" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="257" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="259" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="280" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="261" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="263" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="267" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="269" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="276" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="277" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="278" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="283" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="285" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="296" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="287" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="291" dstpinname="camPos">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="294" dstpinname="camPos">
   </LINK>
   <LINK srcnodeid="336" srcpinname="Output String" dstnodeid="335" dstpinname="Selector">
   </LINK>
@@ -3632,8 +3498,6 @@
   </LINK>
   <LINK srcnodeid="496" srcpinname="Transform Out" dstnodeid="493" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="493" dstpinname="CamPos">
-  </LINK>
   <LINK srcnodeid="493" srcpinname="Layer" dstnodeid="492" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="497" srcpinname="Transform Out" dstnodeid="496" dstpinname="Transform In">
@@ -3642,13 +3506,9 @@
   </LINK>
   <LINK srcnodeid="498" srcpinname="Output" dstnodeid="493" dstpinname="Ambient Color">
   </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="479" dstpinname="CamPos">
-  </LINK>
   <LINK srcnodeid="483" srcpinname="Transform Out" dstnodeid="482" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="479" srcpinname="Layer" dstnodeid="499" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="500" dstpinname="CamPos">
   </LINK>
   <LINK srcnodeid="500" srcpinname="Layer" dstnodeid="499" dstpinname="Layer 2">
   </LINK>
@@ -3659,5 +3519,29 @@
   <LINK srcnodeid="504" srcpinname="Transform Out" dstnodeid="503" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="499" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 19">
+  </LINK>
+  <LINK srcnodeid="64" srcpinname="Texture Out" dstnodeid="500" dstpinname="tNormal1">
+  </LINK>
+  <LINK srcnodeid="67" srcpinname="Output String" dstnodeid="505" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="505" srcpinname="Texture Out" dstnodeid="500" dstpinname="tCol1">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Camera Position" dstnodeid="506" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="508" srcpinname="Output" dstnodeid="493" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="509" srcpinname="Output" dstnodeid="58" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="510" srcpinname="Output" dstnodeid="448" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="511" srcpinname="Output" dstnodeid="460" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="512" srcpinname="Output" dstnodeid="500" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="513" srcpinname="Output" dstnodeid="479" dstpinname="CamPos">
+  </LINK>
+  <LINK srcnodeid="515" srcpinname="Output String" dstnodeid="514" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
