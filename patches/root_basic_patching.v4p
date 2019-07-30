@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="19740" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2745" top="18630" width="100" height="100">
@@ -1591,7 +1591,7 @@
   </PIN>
   </NODE>
   <NODE id="442" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10350" top="14925" width="100" height="100">
+  <BOUNDS type="Node" left="9270" top="13590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -1603,7 +1603,7 @@
   </PIN>
   </NODE>
   <NODE id="443" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="9810" top="13950" width="0" height="0">
+  <BOUNDS type="Box" left="8730" top="12615" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
@@ -2647,6 +2647,12 @@
   </PIN>
   <PIN pinname="Property Value" visible="1" values="|pointer|">
   </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="621" nodename="nav.v4p" systemname="nav" filename="nav.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="14955" top="18705" width="100" height="100">
+  </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
