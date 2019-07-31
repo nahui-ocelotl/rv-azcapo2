@@ -168,9 +168,7 @@ h2
     
     width:33.3%;
     height: 33.3%;
-
     z-index: 4;
-    
     transform: translate(-50%, -50%);
     -webkit-transform:translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -198,6 +196,7 @@ button {
   border-radius: 4px;
   box-shadow: 2px 2px;
   text-align: center;
+  z-index: 16;
 }
     
 .container {
