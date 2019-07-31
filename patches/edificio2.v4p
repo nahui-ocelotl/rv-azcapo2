@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16680" height="17265">
+  <BOUNDS type="Window" width="20235" height="17265">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="8805" top="13389" width="750" height="240">
@@ -256,14 +256,6 @@
   <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="60" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
-  <BOUNDS type="Box" left="15390" top="4170" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input Node" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|EnvironmentMap|">
   </PIN>
   </NODE>
   <NODE id="61" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
@@ -1052,8 +1044,6 @@
   </LINK>
   <LINK srcnodeid="53" srcpinname="Texture Out" dstnodeid="52" dstpinname="tNormal1">
   </LINK>
-  <LINK srcnodeid="60" srcpinname="Output Node" dstnodeid="52" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="54" srcpinname="Output String" dstnodeid="53" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Transform Out" dstnodeid="56" dstpinname="Transform In">
@@ -1187,5 +1177,7 @@
   <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="82" dstpinname="EnvironmentMap">
   </LINK>
   <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="95" dstpinname="EnvironmentMap">
+  </LINK>
+  <LINK srcnodeid="112" srcpinname="Texture Out" dstnodeid="52" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
