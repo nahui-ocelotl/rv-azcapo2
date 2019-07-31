@@ -239,13 +239,13 @@ button {
 }
 
 .f {
-  top: 24%;
+  top: 24.5%;
   left: 28%;
   background-color: aquamarine;
 }
     
 .g {
-  top: 19%;
+  top: 19.5%;
   left: 28%;
   background-color: aquamarine;
 }
@@ -266,7 +266,7 @@ button {
 }
     
 .k {
-  top: 19%;
+  top: 19.5%;
   right: 43.5%;
 }
     
@@ -387,7 +387,7 @@ button {
     
 .gimnasio {
   background-color: violet;
-  top: 19%;
+  top: 19.5%;
   left: 40%;
   width: 5%;    
   height: 4%;
@@ -395,13 +395,13 @@ button {
     
 .siladin {
   background-color: aquamarine;
-  top: 19%;
+  top: 19.5%;
   right: 36%;
 }
     
 .computo {
   background-color: aquamarine;
-  top: 19%;
+  top: 19.5%;
   right: 20%;
   width: 10%;   
 }
