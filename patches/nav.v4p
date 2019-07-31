@@ -1299,7 +1299,7 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|top|">
+  <PIN pinname="Property Name" visible="1" values="|bottom|">
   </PIN>
   <PIN pinname="Property Value" visible="1">
   </PIN>
@@ -1385,11 +1385,11 @@
   </PIN>
   <PIN pinname="Source Minimum" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Source Maximum" visible="1" values="|1|">
+  <PIN pinname="Source Maximum" visible="1" values="|100|">
   </PIN>
-  <PIN pinname="Destination Minimum" visible="1" values="|100|">
+  <PIN pinname="Destination Minimum" visible="1" values="|25|">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|0|">
+  <PIN pinname="Destination Maximum" visible="1" values="|-25|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
