@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20145" height="112980">
+  <BOUNDS type="Window" width="10785" height="6213900">
   </BOUNDS>
   <NODE id="1" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="1560" top="5715" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Reset" visible="1" values="|0|">
+  <PIN pinname="Reset" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -523,7 +523,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Reset" visible="1" values="|0|">
+  <PIN pinname="Reset" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -675,7 +675,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Reset" visible="1" values="|0|">
+  <PIN pinname="Reset" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -851,7 +851,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Reset" visible="1" values="|0|">
+  <PIN pinname="Reset" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1003,7 +1003,7 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Reset" visible="1" values="|0|">
+  <PIN pinname="Reset" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1283,7 +1283,7 @@
   </PIN>
   </NODE>
   <NODE id="107" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16500" top="675" width="100" height="100">
+  <BOUNDS type="Node" left="16665" top="1395" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1295,7 +1295,7 @@
   </PIN>
   </NODE>
   <NODE id="108" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8385" top="16335" width="100" height="100">
+  <BOUNDS type="Node" left="5460" top="16455" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1307,19 +1307,19 @@
   </PIN>
   </NODE>
   <NODE id="109" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8745" top="16890" width="100" height="100">
+  <BOUNDS type="Node" left="7710" top="16305" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1" values="|right|">
+  <PIN pinname="Property Name" visible="1" values="|left|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|25%|">
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="110" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15855" top="105" width="100" height="100">
+  <BOUNDS type="Node" left="16200" top="690" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1379,7 +1379,7 @@
   </PIN>
   </NODE>
   <NODE id="117" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6720" top="12420" width="100" height="100">
+  <BOUNDS type="Node" left="5085" top="12705" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1387,9 +1387,9 @@
   </PIN>
   <PIN pinname="Source Maximum" visible="1" values="|100|">
   </PIN>
-  <PIN pinname="Destination Minimum" visible="1" values="|25|">
+  <PIN pinname="Destination Minimum" visible="1" values="|20|">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|-25|">
+  <PIN pinname="Destination Maximum" visible="1" values="|-27|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -1397,7 +1397,7 @@
   </PIN>
   </NODE>
   <NODE id="118" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7170" top="13470" width="0" height="0">
+  <BOUNDS type="Box" left="5535" top="13755" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1407,7 +1407,7 @@
   </PIN>
   </NODE>
   <NODE id="120" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7515" top="14340" width="100" height="100">
+  <BOUNDS type="Node" left="5880" top="14625" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1417,7 +1417,7 @@
   </PIN>
   </NODE>
   <NODE id="121" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7725" top="15360" width="100" height="100">
+  <BOUNDS type="Node" left="6090" top="15645" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -1426,6 +1426,82 @@
   <PIN pinname="Input 2" visible="1" values="|%|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="122" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7320" top="12645" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1" values="|100|">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1" values="|43.25|">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|-43.25|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="123" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7665" top="13695" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="124" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7650" top="14400" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1" values="|Integer (MinInt .. MaxInt)|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="125" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7860" top="15420" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|%|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="126" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17880" top="540" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="| -ms-transform:|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|rotate(20deg);|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="127" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15360" top="630" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1673,5 +1749,17 @@
   <LINK srcnodeid="120" srcpinname="Output" dstnodeid="121" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="121" srcpinname="Output" dstnodeid="108" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="8" srcpinname="Position Out" dstnodeid="122" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="122" srcpinname="Output" dstnodeid="123" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="124" srcpinname="Output" dstnodeid="125" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="125" srcpinname="Output" dstnodeid="109" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="123" srcpinname="Y Output Value" dstnodeid="124" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="126" srcpinname="Style Out" dstnodeid="110" dstpinname="Style In">
   </LINK>
   </PATCH>
