@@ -499,7 +499,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-48|">
+  <PIN pinname="X" visible="1" values="|-55|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -525,7 +525,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|-39|">
+  <PIN pinname="X" visible="1" values="|-47|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -707,7 +707,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|63|">
+  <PIN pinname="X" visible="1" values="|53|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -1161,7 +1161,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|106|">
+  <PIN pinname="X" visible="1" values="|110|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
