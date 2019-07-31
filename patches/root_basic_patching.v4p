@@ -1511,7 +1511,7 @@
   </PIN>
   </NODE>
   <NODE id="622" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11610" top="20505" width="100" height="100">
+  <BOUNDS type="Node" left="10230" top="20640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|.container|">
   </PIN>
@@ -1523,7 +1523,7 @@
   </PIN>
   </NODE>
   <NODE id="623" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11055" top="21075" width="100" height="100">
+  <BOUNDS type="Node" left="9675" top="21210" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1541,7 +1541,7 @@
   </PIN>
   </NODE>
   <NODE id="624" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10395" top="22575" width="100" height="100">
+  <BOUNDS type="Node" left="9015" top="22710" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -1555,7 +1555,7 @@
   </PIN>
   </NODE>
   <NODE id="625" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10035" top="19440" width="100" height="100">
+  <BOUNDS type="Node" left="8655" top="19575" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1591,7 +1591,7 @@
   </PIN>
   </NODE>
   <NODE id="631" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10695" top="20550" width="100" height="100">
+  <BOUNDS type="Node" left="9315" top="20685" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1603,7 +1603,7 @@
   </PIN>
   </NODE>
   <NODE id="632" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10335" top="19995" width="100" height="100">
+  <BOUNDS type="Node" left="8955" top="20130" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1615,13 +1615,13 @@
   </PIN>
   </NODE>
   <NODE id="633" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11580" top="21960" width="100" height="100">
+  <BOUNDS type="Node" left="10200" top="22095" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
   <PIN pinname="Input 1" visible="1" values="|vot/|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|d|">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input 3" visible="1" values="|.png|">
   </PIN>
@@ -1630,42 +1630,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="634" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14235" top="20595" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|a|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|b|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="635" nodename="Select (String)" systemname="Select (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14745" top="21300" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Select" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="636" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15435" top="20610" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Case Sensitive" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="637" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="14595" top="22110" width="0" height="0">
+  <BOUNDS type="Box" left="13155" top="21285" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -1677,7 +1643,7 @@
   </PIN>
   </NODE>
   <NODE id="638" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14025" top="17565" width="100" height="100">
+  <BOUNDS type="Node" left="13530" top="18150" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|button|">
   </PIN>
@@ -1688,20 +1654,30 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="639" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15135" top="19335" width="100" height="100">
+  <NODE id="640" nodename="OnClick (HTML)" systemname="OnClick (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15990" top="19020" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Prevent Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="641" nodename="GetText (HTML)" systemname="GetText (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11580" top="19200" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="640" nodename="OnClick (HTML)" systemname="OnClick (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13290" top="18405" width="100" height="100">
+  <NODE id="642" nodename="Select (String)" systemname="Select (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13470" top="20085" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Element" visible="1">
+  <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Prevent Default" visible="1">
+  <PIN pinname="Select" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1952,14 +1928,16 @@
   </LINK>
   <LINK srcnodeid="633" srcpinname="Output" dstnodeid="624" dstpinname="Attribute Value">
   </LINK>
-  <LINK srcnodeid="634" srcpinname="Output" dstnodeid="635" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="636" srcpinname="Output" dstnodeid="635" dstpinname="Select">
-  </LINK>
-  <LINK srcnodeid="635" srcpinname="Output" dstnodeid="637" dstpinname="Input String">
-  </LINK>
   <LINK srcnodeid="638" srcpinname="Layers Out" dstnodeid="640" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="640" srcpinname="OnEvent" dstnodeid="636" dstpinname="Case Sensitive">
+  <LINK srcnodeid="638" srcpinname="Layers Out" dstnodeid="641" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="641" srcpinname="Text" dstnodeid="642" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="640" srcpinname="OnEvent" dstnodeid="642" dstpinname="Select">
+  </LINK>
+  <LINK srcnodeid="642" srcpinname="Output" dstnodeid="637" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="637" srcpinname="Output String" dstnodeid="633" dstpinname="Input 2">
   </LINK>
   </PATCH>
