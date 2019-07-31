@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="20145" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2745" top="18630" width="100" height="100">
@@ -853,7 +853,7 @@
   </PIN>
   </NODE>
   <NODE id="265" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9810" top="10305" width="100" height="100">
+  <BOUNDS type="Node" left="13875" top="10230" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
@@ -1479,19 +1479,19 @@
   </PIN>
   </NODE>
   <NODE id="516" nodename="direccion.v4p" systemname="direccion" filename="direccion.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="4365" top="7800" width="100" height="100">
+  <BOUNDS type="Node" left="5025" top="6000" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="517" nodename="audiovisual.v4p" systemname="audiovisual" filename="audiovisual.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5835" top="7800" width="100" height="100">
+  <BOUNDS type="Node" left="5670" top="6660" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="518" nodename="explanada.v4p" systemname="explanada" filename="explanada.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7560" top="7875" width="100" height="100">
+  <BOUNDS type="Node" left="6420" top="7275" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1679,6 +1679,12 @@
   </PIN>
   <PIN pinname="Select" visible="1">
   </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="643" nodename="ccomputo.v4p" systemname="ccomputo" filename="ccomputo.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="7485" top="7920" width="100" height="100">
+  </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
