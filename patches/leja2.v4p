@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="13005" height="7500">
+  <BOUNDS type="Window" width="12510" height="7500">
   </BOUNDS>
   <NODE id="1" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="2985" top="5595" width="750" height="240">
@@ -108,22 +108,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="12" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3765" top="3045" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|25|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Input 3" visible="1" values="|1|">
-  </PIN>
-  <PIN pinname="Input 4" visible="1" values="|25|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="15" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
   <BOUNDS type="Node" left="4440" top="4275" width="100" height="100">
   </BOUNDS>
@@ -131,7 +115,7 @@
   </PIN>
   <PIN pinname="Saturation" visible="1">
   </PIN>
-  <PIN pinname="Value" visible="1" values="|0.6|">
+  <PIN pinname="Value" visible="1" values="|0.25|">
   </PIN>
   <PIN pinname="Alpha" visible="1">
   </PIN>
@@ -178,6 +162,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="|positionX|">
   </PIN>
   </NODE>
+  <NODE id="21" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5160" top="2175" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|25|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="1" dstpinname="Input Node">
   </LINK>
   <LINK srcnodeid="3" srcpinname="Mesh" dstnodeid="2" dstpinname="Mesh">
@@ -192,8 +186,6 @@
   </LINK>
   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="5" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="12" srcpinname="Output" dstnodeid="8" dstpinname="X">
-  </LINK>
   <LINK srcnodeid="17" srcpinname="Output Node" dstnodeid="4" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="18" srcpinname="Output String" dstnodeid="7" dstpinname="Filename">
@@ -201,5 +193,7 @@
   <LINK srcnodeid="19" srcpinname="Y Output Value" dstnodeid="5" dstpinname="X">
   </LINK>
   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="4" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="8" dstpinname="X">
   </LINK>
   </PATCH>
