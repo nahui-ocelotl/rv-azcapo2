@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="19740" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2655" top="18525" width="100" height="100">
@@ -1285,7 +1285,7 @@
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="3015" top="26550" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -2119,8 +2119,6 @@
   <LINK srcnodeid="652" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="653" srcpinname="Transform Out" dstnodeid="652" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="656" dstpinname="Style">
   </LINK>
   <LINK srcnodeid="654" srcpinname="Layers Out" dstnodeid="656" dstpinname="Element">
   </LINK>
