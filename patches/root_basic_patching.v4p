@@ -373,7 +373,7 @@
   </PIN>
   </NODE>
   <NODE id="227" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1290" top="26535" width="100" height="100">
+  <BOUNDS type="Node" left="1230" top="25035" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
@@ -391,7 +391,9 @@
   </PIN>
   <PIN pinname="Layer 7" visible="1">
   </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|7|">
+  <PIN pinname="Layer 8" visible="1">
+  </PIN>
+  <PIN pinname="Layer Template Count" visible="0" values="|8|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1751,6 +1753,10 @@
   </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
+  <PIN pinname="scaleX" visible="1" values="|310|">
+  </PIN>
+  <PIN pinname="positionX" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -1764,6 +1770,82 @@
   <PIN pinname="Y" visible="1">
   </PIN>
   <PIN pinname="Z" visible="1" values="|143|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="654" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9255" top="20985" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|.container|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="655" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8685" top="20070" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="656" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7365" top="22440" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="657" nodename="leja2.v4p" systemname="leja2" filename="leja2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="3240" top="22080" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="mapa" visible="1">
+  </PIN>
+  <PIN pinname="scaleX" visible="1" values="|105|">
+  </PIN>
+  <PIN pinname="positionX" visible="1" values="|-30|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="658" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4200" top="21360" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|137|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="660" nodename="Rotate (Transform)" systemname="Rotate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4815" top="20565" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2037,5 +2119,15 @@
   <LINK srcnodeid="652" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="653" srcpinname="Transform Out" dstnodeid="652" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="656" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="654" srcpinname="Layers Out" dstnodeid="656" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="657" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 8">
+  </LINK>
+  <LINK srcnodeid="658" srcpinname="Transform Out" dstnodeid="657" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="660" srcpinname="Transform Out" dstnodeid="658" dstpinname="Transform In">
   </LINK>
   </PATCH>
