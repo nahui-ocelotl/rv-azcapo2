@@ -1279,7 +1279,7 @@
   </PIN>
   </NODE>
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="2820" top="21435" width="0" height="0">
+  <BOUNDS type="Box" left="3060" top="21450" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
@@ -1738,6 +1738,14 @@
   <PIN pinname="Input" visible="1">
   </PIN>
   <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="652" nodename="leja2.v4p" systemname="leja2" filename="leja2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="4650" top="19335" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="mapa" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
