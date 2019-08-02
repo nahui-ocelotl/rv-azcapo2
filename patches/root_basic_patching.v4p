@@ -1283,7 +1283,7 @@
   </PIN>
   </NODE>
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="3015" top="26550" width="0" height="0">
+  <BOUNDS type="Box" left="3015" top="26535" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
@@ -1715,7 +1715,7 @@
   </PIN>
   </NODE>
   <NODE id="647" nodename="siladin.v4p" systemname="siladin" filename="siladin.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="8505" top="9135" width="100" height="100">
+  <BOUNDS type="Node" left="8505" top="9105" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform" visible="1">
   </PIN>
@@ -1727,7 +1727,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|128|">
+  <PIN pinname="X" visible="1" values="|64|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -2127,5 +2127,9 @@
   <LINK srcnodeid="658" srcpinname="Transform Out" dstnodeid="657" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="660" srcpinname="Transform Out" dstnodeid="658" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="647" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 21">
+  </LINK>
+  <LINK srcnodeid="648" srcpinname="Transform Out" dstnodeid="647" dstpinname="Transform">
   </LINK>
   </PATCH>
