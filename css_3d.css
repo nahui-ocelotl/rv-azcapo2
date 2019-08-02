@@ -207,6 +207,14 @@ button {
  z-index: 15;
 }
 
+.container2 {
+ position: fixed;
+ bottom: 2.5%;
+ left: 0%;
+ width: 58%;
+ z-index: 15;
+}
+
 .container img {
   width: 100%;
   height: auto;
