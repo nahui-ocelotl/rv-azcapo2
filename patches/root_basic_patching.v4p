@@ -281,7 +281,7 @@
   </PIN>
   </NODE>
   <NODE id="223" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="315" top="10470" width="100" height="100">
+  <BOUNDS type="Node" left="315" top="10470" width="7515" height="100">
   </BOUNDS>
   <PIN pinname="Enabled" visible="1" values="|1|">
   </PIN>
@@ -799,7 +799,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|88|">
+  <PIN pinname="X" visible="1" values="|83|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -1291,7 +1291,7 @@
   <NODE id="412" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="3015" top="26535" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|1|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1729,7 +1729,7 @@
   </PIN>
   </NODE>
   <NODE id="648" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8235" top="7410" width="100" height="100">
+  <BOUNDS type="Node" left="8265" top="7350" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -1737,7 +1737,7 @@
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|104|">
+  <PIN pinname="Z" visible="1" values="|98|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1869,11 +1869,11 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|64|">
+  <PIN pinname="X" visible="1" values="|-38|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|104|">
+  <PIN pinname="Z" visible="1" values="|93|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1891,17 +1891,17 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|64|">
+  <PIN pinname="X" visible="1" values="|142|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Z" visible="1" values="|104|">
+  <PIN pinname="Z" visible="1" values="|-23|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="666" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3420" top="5280" width="100" height="100">
+  <BOUNDS type="Node" left="3405" top="6420" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform" visible="1">
   </PIN>
@@ -1910,6 +1910,20 @@
   <PIN pinname="letra" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|_ azc|">
+  </PIN>
+  </NODE>
+  <NODE id="667" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3390" top="5865" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|91|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Z" visible="1" values="|98|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
@@ -2126,12 +2140,6 @@
   </LINK>
   <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
   </LINK>
-  <LINK srcnodeid="517" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
-  </LINK>
-  <LINK srcnodeid="516" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 17">
-  </LINK>
-  <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 19">
-  </LINK>
   <LINK srcnodeid="520" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
@@ -2170,8 +2178,6 @@
   </LINK>
   <LINK srcnodeid="637" srcpinname="Output String" dstnodeid="633" dstpinname="Input 2">
   </LINK>
-  <LINK srcnodeid="643" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 20">
-  </LINK>
   <LINK srcnodeid="644" srcpinname="Transform Out" dstnodeid="643" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="640" srcpinname="OnEvent" dstnodeid="651" dstpinname="Input">
@@ -2190,8 +2196,28 @@
   </LINK>
   <LINK srcnodeid="660" srcpinname="Transform Out" dstnodeid="658" dstpinname="Transform In">
   </LINK>
-  <LINK srcnodeid="647" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 21">
-  </LINK>
   <LINK srcnodeid="648" srcpinname="Transform Out" dstnodeid="647" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="666" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 17">
+  </LINK>
+  <LINK srcnodeid="516" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
+  </LINK>
+  <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 20">
+  </LINK>
+  <LINK srcnodeid="517" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 19">
+  </LINK>
+  <LINK srcnodeid="643" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 21">
+  </LINK>
+  <LINK srcnodeid="647" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 22">
+  </LINK>
+  <LINK srcnodeid="662" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 23">
+  </LINK>
+  <LINK srcnodeid="664" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 24">
+  </LINK>
+  <LINK srcnodeid="665" srcpinname="Transform Out" dstnodeid="664" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="663" srcpinname="Transform Out" dstnodeid="662" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="667" srcpinname="Transform Out" dstnodeid="666" dstpinname="Transform">
   </LINK>
   </PATCH>
