@@ -1721,7 +1721,7 @@
   </PIN>
   </NODE>
   <NODE id="647" nodename="siladin.v4p" systemname="siladin" filename="siladin.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="8130" top="7995" width="100" height="100">
+  <BOUNDS type="Node" left="8115" top="7995" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform" visible="1">
   </PIN>
@@ -1905,7 +1905,7 @@
   </BOUNDS>
   <PIN pinname="Transform" visible="1">
   </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/fi.png|">
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/azc.png|">
   </PIN>
   <PIN pinname="letra" visible="1">
   </PIN>
@@ -1924,6 +1924,18 @@
   <PIN pinname="Z" visible="1" values="|98|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="668" nodename="azc.v4p" systemname="azc" filename="azc.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="7785" top="5340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="_ Letra" visible="1" values="|tex/facade/azc.png|">
+  </PIN>
+  <PIN pinname="letra" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ azc|">
   </PIN>
   </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
