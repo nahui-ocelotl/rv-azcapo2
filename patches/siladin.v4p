@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="6015" height="10155">
+  <BOUNDS type="Window" width="12210" height="10155">
   </BOUNDS>
   <NODE id="1" nodename="CookTorrance (EX9.Effect)" systemname="CookTorrance (EX9.Effect)" filename="%VVVV%/lib/nodes/effects/CookTorrance.fx" componentmode="Hidden">
   <BOUNDS type="Node" left="1185" top="3930" width="100" height="100">
@@ -35,7 +35,7 @@
   </PIN>
   <PIN pinname="u roughness" visible="1">
   </PIN>
-  <PIN pinname="Ambient Color" visible="1" values="|1, 1, 1, 1|">
+  <PIN pinname="Ambient Color" visible="1">
   </PIN>
   <PIN pinname="u diffuseColor" visible="1">
   </PIN>
@@ -227,15 +227,15 @@
   <NODE id="13" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="5790" top="2010" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
+  <PIN pinname="Input 1" visible="1" values="|tex/facade/siladin.jpg|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|tex/facade/ladoaudiovisual2.jpg|">
+  <PIN pinname="Input 2" visible="1" values="|tex/facade/siladin.jpg|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|tex/facade/ladoaudiovisual.jpg|">
+  <PIN pinname="Input 3" visible="1" values="|tex/facade/siladin.jpg|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
+  <PIN pinname="Input 4" visible="1" values="|tex/facade/siladin.jpg|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|tex/facade/frenteaudiovisual.jpg|">
+  <PIN pinname="Input 5" visible="1" values="|tex/facade/siladin.jpg|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|5|">
   </PIN>
@@ -264,6 +264,20 @@
   <PIN pinname="Input Node" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|Transform|">
+  </PIN>
+  </NODE>
+  <NODE id="17" nodename="HSV (Color Join)" systemname="HSV (Color Join)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4365" top="2475" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Hue" visible="1">
+  </PIN>
+  <PIN pinname="Saturation" visible="1">
+  </PIN>
+  <PIN pinname="Value" visible="1" values="|0.6|">
+  </PIN>
+  <PIN pinname="Alpha" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="2" srcpinname="Mesh" dstnodeid="1" dstpinname="Mesh">
@@ -295,5 +309,7 @@
   <LINK srcnodeid="13" srcpinname="Output" dstnodeid="12" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="15" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="17" srcpinname="Output" dstnodeid="1" dstpinname="Ambient Color">
   </LINK>
   </PATCH>
