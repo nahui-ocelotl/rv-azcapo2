@@ -1900,24 +1900,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="666" nodename="edificio1.v4p" systemname="edificio1" filename="edificio1.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3405" top="6420" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Transform" visible="1">
-  </PIN>
-  <PIN pinname="_ Letra" visible="1" values="|tex/facade/azc.png|">
-  </PIN>
-  <PIN pinname="letra" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ azc|">
-  </PIN>
-  </NODE>
   <NODE id="667" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3390" top="5865" width="100" height="100">
+  <BOUNDS type="Node" left="8280" top="2775" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|91|">
+  <PIN pinname="X" visible="1" values="|90|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
@@ -1927,7 +1915,7 @@
   </PIN>
   </NODE>
   <NODE id="668" nodename="azc.v4p" systemname="azc" filename="azc.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="7785" top="5340" width="100" height="100">
+  <BOUNDS type="Node" left="8145" top="3450" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform" visible="1">
   </PIN>
@@ -2210,8 +2198,6 @@
   </LINK>
   <LINK srcnodeid="648" srcpinname="Transform Out" dstnodeid="647" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="666" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 17">
-  </LINK>
   <LINK srcnodeid="516" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 18">
   </LINK>
   <LINK srcnodeid="518" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 20">
@@ -2230,6 +2216,8 @@
   </LINK>
   <LINK srcnodeid="663" srcpinname="Transform Out" dstnodeid="662" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="667" srcpinname="Transform Out" dstnodeid="666" dstpinname="Transform">
+  <LINK srcnodeid="667" srcpinname="Transform Out" dstnodeid="668" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="668" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 17">
   </LINK>
   </PATCH>
