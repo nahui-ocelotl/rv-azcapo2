@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19650" height="6213900">
+  <BOUNDS type="Window" width="20235" height="6213900">
   </BOUNDS>
   <NODE id="1" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="1560" top="5715" width="100" height="100">
@@ -1421,17 +1421,17 @@
   </PIN>
   </NODE>
   <NODE id="122" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7320" top="12645" width="100" height="100">
+  <BOUNDS type="Node" left="7365" top="12645" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Source Minimum" visible="1" values="|0|">
+  <PIN pinname="Source Minimum" visible="1" values="|-100|">
   </PIN>
   <PIN pinname="Source Maximum" visible="1" values="|100|">
   </PIN>
-  <PIN pinname="Destination Minimum" visible="1" values="|43.25|">
+  <PIN pinname="Destination Minimum" visible="1">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|-43.25|">
+  <PIN pinname="Destination Maximum" visible="1">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -1536,6 +1536,40 @@
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|reset|">
+  </PIN>
+  </NODE>
+  <NODE id="137" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8580" top="13200" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|44|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="138" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7650" top="11595" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|34|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="140" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7050" top="11835" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="31" srcpinname="OnEvent" dstnodeid="1" dstpinname="Input">
@@ -1776,10 +1810,6 @@
   </LINK>
   <LINK srcnodeid="121" srcpinname="Output" dstnodeid="108" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="8" srcpinname="Position Out" dstnodeid="122" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="122" srcpinname="Output" dstnodeid="123" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="124" srcpinname="Output" dstnodeid="125" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="125" srcpinname="Output" dstnodeid="109" dstpinname="Property Value">
@@ -1813,5 +1843,17 @@
   <LINK srcnodeid="136" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Reset">
   </LINK>
   <LINK srcnodeid="136" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Reset">
+  </LINK>
+  <LINK srcnodeid="8" srcpinname="Position Out" dstnodeid="122" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="122" srcpinname="Output" dstnodeid="137" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="137" srcpinname="Output" dstnodeid="123" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="140" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="140" srcpinname="Output" dstnodeid="122" dstpinname="Destination Maximum">
+  </LINK>
+  <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="122" dstpinname="Destination Minimum">
   </LINK>
   </PATCH>
