@@ -217,7 +217,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|18.4|">
+  <PIN pinname="Input 2" visible="1" values="|18|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1373,13 +1373,13 @@
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Source Minimum" visible="1" values="|0|">
+  <PIN pinname="Source Minimum" visible="1" values="|100|">
   </PIN>
-  <PIN pinname="Source Maximum" visible="1" values="|100|">
+  <PIN pinname="Source Maximum" visible="1" values="|-100|">
   </PIN>
-  <PIN pinname="Destination Minimum" visible="1" values="|20|">
+  <PIN pinname="Destination Minimum" visible="1">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|-27|">
+  <PIN pinname="Destination Maximum" visible="1">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -1543,7 +1543,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|44|">
+  <PIN pinname="Input 2" visible="1" values="|43|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1566,6 +1566,40 @@
   <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="141" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5910" top="11565" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|48|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="142" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5310" top="11805" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|-1|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="143" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5865" top="13275" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1802,8 +1836,6 @@
   </LINK>
   <LINK srcnodeid="10" srcpinname="Position Out" dstnodeid="117" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="117" srcpinname="Output" dstnodeid="118" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="118" srcpinname="Y Output Value" dstnodeid="120" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="120" srcpinname="Output" dstnodeid="121" dstpinname="Input 1">
@@ -1855,5 +1887,15 @@
   <LINK srcnodeid="140" srcpinname="Output" dstnodeid="122" dstpinname="Destination Maximum">
   </LINK>
   <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="122" dstpinname="Destination Minimum">
+  </LINK>
+  <LINK srcnodeid="141" srcpinname="Y Output Value" dstnodeid="142" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="142" srcpinname="Output" dstnodeid="117" dstpinname="Destination Minimum">
+  </LINK>
+  <LINK srcnodeid="141" srcpinname="Y Output Value" dstnodeid="117" dstpinname="Destination Maximum">
+  </LINK>
+  <LINK srcnodeid="117" srcpinname="Output" dstnodeid="143" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="143" srcpinname="Output" dstnodeid="118" dstpinname="Y Input Value">
   </LINK>
   </PATCH>
