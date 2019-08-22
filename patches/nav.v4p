@@ -1897,21 +1897,21 @@
   <NODE id="193" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="6750" top="17550" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|25|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-18|">
+  <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|-18|">
+  <PIN pinname="Input 3" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|-18|">
+  <PIN pinname="Input 4" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|-18|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|-27|">
+  <PIN pinname="Input 6" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|-27|">
+  <PIN pinname="Input 7" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="|-29|">
+  <PIN pinname="Input 8" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|8|">
   </PIN>
@@ -1921,21 +1921,21 @@
   <NODE id="195" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="9180" top="17490" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|18|">
+  <PIN pinname="Input 1" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|18|">
+  <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|18|">
+  <PIN pinname="Input 3" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|40|">
+  <PIN pinname="Input 4" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 5" visible="1" values="|40|">
+  <PIN pinname="Input 5" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 6" visible="1" values="|40|">
+  <PIN pinname="Input 6" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 7" visible="1" values="|40|">
+  <PIN pinname="Input 7" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input 8" visible="1" values="|40|">
+  <PIN pinname="Input 8" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|8|">
   </PIN>
@@ -1994,6 +1994,16 @@
   <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="203" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8385" top="21915" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2364,14 +2374,16 @@
   </LINK>
   <LINK srcnodeid="192" srcpinname="Output" dstnodeid="202" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="202" srcpinname="Output" dstnodeid="183" dstpinname="Index">
-  </LINK>
   <LINK srcnodeid="192" srcpinname="Output" dstnodeid="187" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="202" srcpinname="Output" dstnodeid="184" dstpinname="Index">
   </LINK>
   <LINK srcnodeid="195" srcpinname="Output" dstnodeid="189" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="202" srcpinname="Output" dstnodeid="185" dstpinname="Index">
+  <LINK srcnodeid="202" srcpinname="Output" dstnodeid="203" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="203" srcpinname="Output" dstnodeid="183" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="203" srcpinname="Output" dstnodeid="184" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="203" srcpinname="Output" dstnodeid="185" dstpinname="Index">
   </LINK>
   </PATCH>
