@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="12870" height="8235">
+  <BOUNDS type="Window" width="12375" height="8235">
   </BOUNDS>
   <NODE id="1" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="540" top="450" width="100" height="100">
