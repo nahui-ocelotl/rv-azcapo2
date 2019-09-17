@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="28545" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2655" top="18525" width="100" height="100">
@@ -2144,6 +2144,92 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="733" nodename="nav2.v4p" systemname="nav2" filename="nav2.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="4800" top="23790" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="reset" visible="1">
+  </PIN>
+  <PIN pinname="_ tZ" visible="1">
+  </PIN>
+  <PIN pinname="_ tX" visible="1">
+  </PIN>
+  <PIN pinname="_ rY" visible="1">
+  </PIN>
+  <PIN pinname="slices" visible="1">
+  </PIN>
+  <PIN pinname="_ reset" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="734" nodename="recs.v4p" systemname="recs" filename="recs.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="4770" top="22680" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="reset" visible="1">
+  </PIN>
+  <PIN pinname="_ tZ" visible="1">
+  </PIN>
+  <PIN pinname="_ tX" visible="1">
+  </PIN>
+  <PIN pinname="_ rY" visible="1">
+  </PIN>
+  <PIN pinname="slices" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="735" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3375" top="24660" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="736" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4665" top="24615" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="737" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5775" top="24630" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="738" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3390" top="22665" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ auto|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2362,12 +2448,6 @@
   </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
   </LINK>
-  <LINK srcnodeid="621" srcpinname="rotateY" dstnodeid="386" dstpinname="Y">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="378" dstpinname="X">
-  </LINK>
-  <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="378" dstpinname="Z">
-  </LINK>
   <LINK srcnodeid="622" srcpinname="Layers Out" dstnodeid="623" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="623" srcpinname="Layers Out" dstnodeid="624" dstpinname="Element">
@@ -2467,5 +2547,37 @@
   <LINK srcnodeid="727" srcpinname="Layer" dstnodeid="726" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="729" srcpinname="Transform Out" dstnodeid="727" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="translateZ" dstnodeid="733" dstpinname="_ tZ">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="translateX" dstnodeid="733" dstpinname="_ tX">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="rotateY" dstnodeid="733" dstpinname="_ rY">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="translateZ" dstnodeid="733" dstpinname="slices">
+  </LINK>
+  <LINK srcnodeid="738" srcpinname="Y Output Value" dstnodeid="735" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="rotateY" dstnodeid="735" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="738" srcpinname="Y Output Value" dstnodeid="736" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="translateX" dstnodeid="736" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="738" srcpinname="Y Output Value" dstnodeid="737" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="translateZ" dstnodeid="737" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="rotateY" dstnodeid="735" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="translateX" dstnodeid="736" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="621" srcpinname="translateZ" dstnodeid="737" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="735" srcpinname="Output" dstnodeid="386" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="736" srcpinname="Output" dstnodeid="378" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="737" srcpinname="Output" dstnodeid="378" dstpinname="Z">
   </LINK>
   </PATCH>
