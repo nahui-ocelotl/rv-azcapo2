@@ -1,3 +1,3 @@
 # rv-azcapo2
-vvvv.js Virtual tour of CCH Azcapotzalco, México City.
+vvvv.js CCH Azcapotzalco Virtual Tour, México City 2019.
 www.nahui-ocelotl.com
