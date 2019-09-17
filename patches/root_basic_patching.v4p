@@ -2208,16 +2208,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="696" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="22170" top="27720" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="697" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
   <BOUNDS type="Node" left="5295" top="29595" width="100" height="100">
   </BOUNDS>
@@ -2261,7 +2251,7 @@
   </PIN>
   </NODE>
   <NODE id="700" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8415" top="27570" width="0" height="0">
+  <BOUNDS type="Box" left="9915" top="25740" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
@@ -2273,6 +2263,18 @@
   <NODE id="701" nodename="recs.v4p" systemname="recs" filename="recs.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="18135" top="22365" width="100" height="100">
   </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="703" nodename="EQ (Value)" systemname="EQ (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12375" top="26310" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Epsilon" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -2572,8 +2574,6 @@
   </LINK>
   <LINK srcnodeid="675" srcpinname="Y Output Value" dstnodeid="673" dstpinname="Period">
   </LINK>
-  <LINK srcnodeid="696" srcpinname="Y Output Value" dstnodeid="673" dstpinname="Reset">
-  </LINK>
   <LINK srcnodeid="673" srcpinname="Output" dstnodeid="674" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="690" srcpinname="Output" dstnodeid="676" dstpinname="Index">
@@ -2609,8 +2609,6 @@
   <LINK srcnodeid="673" srcpinname="Change" dstnodeid="685" dstpinname="Up">
   </LINK>
   <LINK srcnodeid="687" srcpinname="Output" dstnodeid="685" dstpinname="Maximum">
-  </LINK>
-  <LINK srcnodeid="696" srcpinname="Y Output Value" dstnodeid="685" dstpinname="Reset">
   </LINK>
   <LINK srcnodeid="686" srcpinname="Count" dstnodeid="687" dstpinname="Input 1">
   </LINK>
@@ -2663,5 +2661,11 @@
   <LINK srcnodeid="701" srcpinname="translateZ" dstnodeid="680" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="701" srcpinname="translateX" dstnodeid="686" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="700" srcpinname="Y Output Value" dstnodeid="703" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="703" srcpinname="Output" dstnodeid="685" dstpinname="Reset">
+  </LINK>
+  <LINK srcnodeid="703" srcpinname="Output" dstnodeid="673" dstpinname="Reset">
   </LINK>
   </PATCH>
