@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="36705">
+  <BOUNDS type="Window" width="28545" height="36705">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2655" top="18525" width="100" height="100">
@@ -10,18 +10,6 @@
   <PIN pinname="Type" visible="1" values="|Cube Texture|">
   </PIN>
   <PIN pinname="Apply" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="47" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2535" top="17880" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2297,7 +2285,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/ilhuicatl.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.png|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -2327,8 +2315,6 @@
   <LINK srcnodeid="195" srcpinname="ResolutionX" dstnodeid="188" dstpinname="Backbuffer Width">
   </LINK>
   <LINK srcnodeid="195" srcpinname="ResolutionY" dstnodeid="188" dstpinname="Backbuffer Height">
-  </LINK>
-  <LINK srcnodeid="47" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="222" srcpinname="Layer" dstnodeid="223" dstpinname="Layer 1">
   </LINK>
@@ -2697,5 +2683,7 @@
   <LINK srcnodeid="705" srcpinname="Output String" dstnodeid="704" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="704" srcpinname="Output" dstnodeid="514" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="705" srcpinname="Output String" dstnodeid="46" dstpinname="Filename">
   </LINK>
   </PATCH>
