@@ -3220,16 +3220,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="946" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="33750" top="37140" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input" visible="1">
-  </PIN>
-  <PIN pinname="Name" visible="1" values="|apanohuayan|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="979" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="37920" top="32235" width="100" height="100">
   </BOUNDS>
@@ -4701,8 +4691,6 @@
   <LINK srcnodeid="928" srcpinname="Output" dstnodeid="929" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="929" srcpinname="Output" dstnodeid="67" dstpinname="Input String">
-  </LINK>
-  <LINK srcnodeid="905" srcpinname="Y Output Value" dstnodeid="946" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="985" srcpinname="Style Out" dstnodeid="980" dstpinname="Style In">
   </LINK>
