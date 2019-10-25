@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16680" height="30330">
+  <BOUNDS type="Window" width="16185" height="30330">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="7170" top="10959" width="750" height="240">
@@ -56,30 +56,6 @@
   <PIN pinname="BumpFactor" visible="1">
   </PIN>
   <PIN pinname="refract amount" visible="1" values="|0.4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="43" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7140" top="4050" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Filename" visible="1">
-  </PIN>
-  <PIN pinname="Type" visible="1" values="|Texture|">
-  </PIN>
-  <PIN pinname="Apply" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="44" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6900" top="3225" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/water_normal.png|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -202,30 +178,6 @@
   <PIN pinname="BumpFactor" visible="1">
   </PIN>
   <PIN pinname="refract amount" visible="1" values="|0.4|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="53" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13350" top="4140" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Filename" visible="1">
-  </PIN>
-  <PIN pinname="Type" visible="1" values="|Texture|">
-  </PIN>
-  <PIN pinname="Apply" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="54" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="12720" top="3315" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/water_normal.png|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1028,11 +980,7 @@
   </LINK>
   <LINK srcnodeid="46" srcpinname="Transform Out" dstnodeid="42" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="43" srcpinname="Texture Out" dstnodeid="42" dstpinname="tNormal1">
-  </LINK>
   <LINK srcnodeid="48" srcpinname="Texture Out" dstnodeid="42" dstpinname="tCol1">
-  </LINK>
-  <LINK srcnodeid="44" srcpinname="Output String" dstnodeid="43" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="46" dstpinname="Transform In">
   </LINK>
@@ -1041,10 +989,6 @@
   <LINK srcnodeid="50" srcpinname="Layer" dstnodeid="31" dstpinname="Input Node">
   </LINK>
   <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="52" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="53" srcpinname="Texture Out" dstnodeid="52" dstpinname="tNormal1">
-  </LINK>
-  <LINK srcnodeid="54" srcpinname="Output String" dstnodeid="53" dstpinname="Filename">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Transform Out" dstnodeid="56" dstpinname="Transform In">
   </LINK>

@@ -19,7 +19,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1485,7 +1485,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -2424,8 +2424,6 @@
   </LINK>
   <LINK srcnodeid="515" srcpinname="Output String" dstnodeid="514" dstpinname="Filename">
   </LINK>
-  <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="520" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
@@ -2545,5 +2543,7 @@
   <LINK srcnodeid="737" srcpinname="Style Out" dstnodeid="738" dstpinname="Style">
   </LINK>
   <LINK srcnodeid="736" srcpinname="Layers Out" dstnodeid="738" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
   </LINK>
   </PATCH>
