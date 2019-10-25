@@ -197,6 +197,7 @@ button {
   box-shadow: 2px 2px;
   text-align: center;
   z-index: 16;
+  display:none
 }
     
 .container {
@@ -205,6 +206,7 @@ button {
  right: 0%;
  width: 42%;
  z-index: 15;
+ display:none
 }
 
 .container2 {
@@ -218,6 +220,7 @@ button {
 .container img {
   width: 100%;
   height: auto;
+  display:none
 }
 
 .fi {
