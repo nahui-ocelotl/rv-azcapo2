@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16680" height="30330">
+  <BOUNDS type="Window" width="16185" height="30330">
   </BOUNDS>
   <NODE id="31" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="7170" top="10959" width="750" height="240">
@@ -1017,7 +1017,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
