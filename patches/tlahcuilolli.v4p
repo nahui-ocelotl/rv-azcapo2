@@ -1,0 +1,271 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="20235" height="10605">
+  </BOUNDS>
+  <NODE id="1" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3465" top="3810" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="2" nodename="Switch (Node Input)" systemname="Switch (Node Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3345" top="3180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="5" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5625" top="6510" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="6" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1650" top="6585" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="7" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3660" top="7095" width="720" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="8" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2265" top="705" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Tlalticpac |">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Apanohuayan|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Tepetl Monamiquian|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|Iztepetl|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|Itzehecayan|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|Pancuecuetlacayan|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|Temiminaloayan|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|Teyollocualoyan|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|Itzmictlan Apochcalocan|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="9" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2265" top="1785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="10" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4545" top="690" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Sobre la tierra|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|El pasadero del agua|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|El lugar donde se encuentran los cerros|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|El cerro de obsidiana|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|El lugar del viento de obsidiana|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|El lugar donde los hombres revolotean como banderas|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|El lugar donde es flechada la gente|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|El lugar donde son comidos los corazones de la gente|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|El sitio de obsidiana de los muertos|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="11" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4545" top="1740" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="12" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1470" top="5880" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Axcan tica ipan inic ce centlaxitl, in ohtli campa in tlalli centilia ihuan mictlan... Motlamiliztli tiyahui nahui xihuitl ixquixca in zatlatzonco centlalixtli, Itzmictlan Apochcalocan ihuan tihuica ce tlalmanalli inic Mictlantecuhtli.|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|In atl ce tenolli nepantla inin ome tlalticpac, in miquiztli panozqueh ce atoyatl acopan ce itzcuintli cuitlaxiloyotl, inin mocuepaz iteyacaniliztli ipan nochi ohtli...|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Mah Xitihuiquiliaz tipanoz nepantla tepemeh, intla anmopachohuazqueh anmopopoloazqueh tlacahualtica moaci ompa Mictlan. ¡Cuetlahuiliztli! Ihcuac in Oactli tototl cuica, mocaquiztilia in tlapopoliztli...|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|Mah ximopanoltitzino ompa tlacuatlalli, centlaliztli ipan Tepetl  Monamiquian ihuan Itzehecayan, ce ohtli cenca ohui ompa tihuelitiz nextiaz in tlapopoliztli intla ahmo netlacuitlahuini|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|In achi cehuatic ohtli ihuicpa in nehnemiliztli, achi chicahuac ehecaohtli. In tetl, cuauhmeh ihuan itztlaxotlahuiqui mehuah, mah ximocuitlahuia tlein amoh yahuih ompa tehuatl|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|Ompa Pantiyan, in miquiztli ixittah ihuan quixmatih itonalli, Cuix tiaci ompa tlamiliztlic centlaxitl ihuan  ticmaca Mictlantecuhtli motlalmanalli,  nozzo, cuix in ohtli timopopoloaz...|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="||">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="13" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5550" top="5865" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|En este momento te encuentras en el primer paso, el sitio donde la tierra se conecta con el mundo de los muertos… Tu meta es viajar durante cuatro años al último paso, Itzmictlan Apochcalocan, y llevar una ofrenda a Mictlantecuhtli, dios del inframundo.|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|El agua es un puente entre ambos mundos, los difuntos deben atravesar el río montados sobre el lomo de un perro, este se convertirá en su guía durante todo el viaje…|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Deberás pasar a través de las montañas, si te atrapan te destruirán impidiendo la llegada al inframundo, ¡Cuidado! Cuando el ave Oactli canta se anuncia la destrucción... |">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="| Bienvenido a la tierra devoradora, una combinación entre Tepetl Monamiquian e Itzehecayan, un sitio muy peligroso donde podrías encontrar la destrucción si no eres cuidadoso...|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|El sitio más frío del viaje, lugar de los vientos más fuertes. Las piedras, árboles y cuchillos de obsidiana se levantan, cuida que no lleguen a ti...|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="| En el lugar de las banderas, los difuntos han de aceptar su situación, y conocer su destino, ¿Llegarás al último paso y entregaras tu ofrenda a Mictlantecuhtli, o, el trayecto te destruirá?...|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|Te encuentras en el sitio por el cual pasa el sol, el dios Citli le lanza sus flechas, pero este las esquiva y  responde al ataque con  sus rayos que se volverán un desafío para ti, enfrentarás calor y sequedad, los cuerpos, huesos y cenizas que están en el lugar fertilizan a la tierra que entrega frutos como alimento de los hombres.|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|En el lugar de las bestias salvajes el principal alimento son los corazones.  El movimiento, la fuerza, el conocimiento y la memoria se pierden. Te estás convirtiendo en un ente sin pasado...|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="| Bienvenido a la última etapa del viaje, el lugar más oscuro del inframundo, Mictlantecuhtli te espera, lleva la ofrenda que has conservado durante cuatro años. Toma una forma nueva, y enfrenta la existencia en un nuevo mundo.|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|9|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="14" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="465" top="2640" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ nahuatl / caxtilan|">
+  </PIN>
+  </NODE>
+  <NODE id="15" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="7410" top="2700" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ ohtli|">
+  </PIN>
+  </NODE>
+  <NODE id="16" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="2940" top="4530" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ h3|">
+  </PIN>
+  </NODE>
+  <NODE id="19" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2760" top="8205" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ p|">
+  </PIN>
+  </NODE>
+  <LINK srcnodeid="2" srcpinname="Output" dstnodeid="1" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="9" srcpinname="Output" dstnodeid="2" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="11" srcpinname="Output" dstnodeid="2" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="13" srcpinname="Output" dstnodeid="5" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="12" srcpinname="Output" dstnodeid="6" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Output" dstnodeid="7" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="5" srcpinname="Output" dstnodeid="7" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="8" srcpinname="Output" dstnodeid="9" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="10" srcpinname="Output" dstnodeid="11" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="9" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="11" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="1" srcpinname="Output" dstnodeid="16" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="7" srcpinname="Output" dstnodeid="19" dstpinname="Input String">
+  </LINK>
+  </PATCH>
