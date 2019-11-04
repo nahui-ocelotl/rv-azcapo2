@@ -1757,7 +1757,7 @@
   </PIN>
   </NODE>
   <NODE id="654" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9270" top="20565" width="100" height="100">
+  <BOUNDS type="Node" left="7785" top="21630" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|.container|">
   </PIN>
@@ -1769,7 +1769,7 @@
   </PIN>
   </NODE>
   <NODE id="655" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6735" top="20535" width="100" height="100">
+  <BOUNDS type="Node" left="7845" top="19830" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1921,7 +1921,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|left|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|0%|">
+  <PIN pinname="Property Value" visible="1" values="|35%|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1937,7 +1937,7 @@
   </PIN>
   </NODE>
   <NODE id="674" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13575" top="14610" width="100" height="100">
+  <BOUNDS type="Node" left="13200" top="14355" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -1949,7 +1949,7 @@
   </PIN>
   </NODE>
   <NODE id="695" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13290" top="13935" width="100" height="100">
+  <BOUNDS type="Node" left="12645" top="13665" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -2092,20 +2092,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="731" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9045" top="8925" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Layer 1" visible="1">
-  </PIN>
-  <PIN pinname="Layer 2" visible="1">
-  </PIN>
-  <PIN pinname="Layer Template Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="732" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
   <BOUNDS type="Node" left="9615" top="7305" width="100" height="100">
   </BOUNDS>
@@ -2116,6 +2102,38 @@
   <PIN pinname="Y" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Z" visible="1" values="|98|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="733" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13035" top="23550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="734" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9870" top="19815" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="735" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9255" top="20580" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2414,8 +2432,6 @@
   </LINK>
   <LINK srcnodeid="674" srcpinname="Style Out" dstnodeid="671" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="695" srcpinname="Style Out" dstnodeid="674" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="696" srcpinname="Layers Out" dstnodeid="710" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="669" srcpinname="Layers Out" dstnodeid="719" dstpinname="Parent">
@@ -2441,5 +2457,15 @@
   <LINK srcnodeid="729" srcpinname="Transform Out" dstnodeid="727" dstpinname="Transform">
   </LINK>
   <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="656" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="638" srcpinname="Layers Out" dstnodeid="733" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="733" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="734" srcpinname="Layers Out" dstnodeid="735" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="735" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="695" srcpinname="Style Out" dstnodeid="674" dstpinname="Style In">
   </LINK>
   </PATCH>
