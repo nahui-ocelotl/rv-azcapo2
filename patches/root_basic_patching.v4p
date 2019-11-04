@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="28545" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2655" top="18525" width="100" height="100">
@@ -19,7 +19,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1468,30 +1468,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="514" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3060" top="12390" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Filename" visible="1">
-  </PIN>
-  <PIN pinname="Type" visible="1" values="|Cube Texture|">
-  </PIN>
-  <PIN pinname="Apply" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="515" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1830" top="11835" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="516" nodename="direccion.v4p" systemname="direccion" filename="direccion.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="5085" top="5505" width="100" height="100">
   </BOUNDS>
@@ -1781,7 +1757,7 @@
   </PIN>
   </NODE>
   <NODE id="654" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9255" top="20985" width="100" height="100">
+  <BOUNDS type="Node" left="9270" top="20565" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Selector" visible="1" values="|.container|">
   </PIN>
@@ -1793,13 +1769,13 @@
   </PIN>
   </NODE>
   <NODE id="655" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8685" top="20070" width="100" height="100">
+  <BOUNDS type="Node" left="6735" top="20535" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|display|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|none|">
+  <PIN pinname="Property Value" visible="1" values="|block|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2354,10 +2330,6 @@
   </LINK>
   <LINK srcnodeid="509" srcpinname="Output" dstnodeid="58" dstpinname="CamPos">
   </LINK>
-  <LINK srcnodeid="515" srcpinname="Output String" dstnodeid="514" dstpinname="Filename">
-  </LINK>
-  <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="520" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
@@ -2467,5 +2439,7 @@
   <LINK srcnodeid="727" srcpinname="Layer" dstnodeid="726" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="729" srcpinname="Transform Out" dstnodeid="727" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="655" srcpinname="Style Out" dstnodeid="656" dstpinname="Style">
   </LINK>
   </PATCH>
