@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="31350">
+  <BOUNDS type="Window" width="28545" height="31350">
   </BOUNDS>
   <NODE id="46" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
   <BOUNDS type="Node" left="2655" top="18525" width="100" height="100">
@@ -19,7 +19,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
+  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/cielo.jpg|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1468,30 +1468,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="514" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3060" top="12390" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Filename" visible="1">
-  </PIN>
-  <PIN pinname="Type" visible="1" values="|Cube Texture|">
-  </PIN>
-  <PIN pinname="Apply" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="515" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1830" top="11835" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1" values="|0|">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|tex/Cubemaps/skybox_texture.jpg|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="516" nodename="direccion.v4p" systemname="direccion" filename="direccion.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="5085" top="5505" width="100" height="100">
   </BOUNDS>
@@ -1776,40 +1752,6 @@
   <PIN pinname="Y" visible="1">
   </PIN>
   <PIN pinname="Z" visible="1" values="|143|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="654" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9255" top="20985" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Selector" visible="1" values="|.container|">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Refresh" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="655" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8685" top="20070" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|display|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|none|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="656" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7365" top="22440" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style" visible="1">
-  </PIN>
-  <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -2144,6 +2086,74 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="733" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="21690" top="15420" width="1080" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|img|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="734" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="20940" top="16245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="735" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="21840" top="13875" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="736" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24135" top="15480" width="1080" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|.container|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="737" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23385" top="16305" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style" visible="1">
+  </PIN>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="738" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24285" top="13935" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="48" srcpinname="Mesh" dstnodeid="50" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -2354,10 +2364,6 @@
   </LINK>
   <LINK srcnodeid="509" srcpinname="Output" dstnodeid="58" dstpinname="CamPos">
   </LINK>
-  <LINK srcnodeid="515" srcpinname="Output String" dstnodeid="514" dstpinname="Filename">
-  </LINK>
-  <LINK srcnodeid="514" srcpinname="Texture Out" dstnodeid="58" dstpinname="EnvironmentMap">
-  </LINK>
   <LINK srcnodeid="520" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 5">
   </LINK>
   <LINK srcnodeid="290" srcpinname="Layer" dstnodeid="265" dstpinname="Layer 4">
@@ -2405,8 +2411,6 @@
   <LINK srcnodeid="652" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 7">
   </LINK>
   <LINK srcnodeid="653" srcpinname="Transform Out" dstnodeid="652" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="654" srcpinname="Layers Out" dstnodeid="656" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="657" srcpinname="Layer" dstnodeid="227" dstpinname="Layer 8">
   </LINK>
@@ -2467,5 +2471,13 @@
   <LINK srcnodeid="727" srcpinname="Layer" dstnodeid="726" dstpinname="Layer 2">
   </LINK>
   <LINK srcnodeid="729" srcpinname="Transform Out" dstnodeid="727" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="Layers Out" dstnodeid="734" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="735" srcpinname="Style Out" dstnodeid="734" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="738" srcpinname="Style Out" dstnodeid="737" dstpinname="Style">
+  </LINK>
+  <LINK srcnodeid="736" srcpinname="Layers Out" dstnodeid="737" dstpinname="Element">
   </LINK>
   </PATCH>
